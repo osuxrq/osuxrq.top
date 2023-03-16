@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-d1e683b8","path":"/huodong/qunsai/1.html","title":"第1届新人群群赛","lang":"zh-CN","frontmatter":{"title":"第1届新人群群赛","lang":"zh-CN"},"headers":[],"git":{"updatedTime":1679010063000,"contributors":[{"name":"bleatingsheep","email":"bleatingsheep@live.cn","commits":1}]},"filePathRelative":"huodong/qunsai/1.md"}');export{e as data};
