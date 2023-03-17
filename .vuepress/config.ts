@@ -15,11 +15,16 @@ export default defineUserConfig({
                 navbar: [
                     // 导航栏
                     {
-                        text: "介绍",
-                        children: ["/jieshao/", {
-                            text: "osu! 新人群历史",
-                            link: "/lishi/"
-                        },]
+                        text: "osu! 新人群介绍",
+                        children: [
+                            {
+                                text: "介绍",
+                                link: "/jieshao/"
+                            }, {
+                                text: "历史",
+                                link: "/lishi/"
+                            },
+                        ]
                     },
                     {
                         text: '更多',
@@ -61,7 +66,7 @@ export default defineUserConfig({
             },
         },
         repo: 'osuxrq/osuxrq.top',
-        lastUpdated: true,
+        lastUpdated: false,
         contributors: true,
         docsRepo: 'osuxrq/osuxrq.top',
         docsBranch: 'main',
