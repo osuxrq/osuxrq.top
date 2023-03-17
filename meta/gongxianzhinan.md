@@ -41,6 +41,8 @@ lang: zh-CN
 
 这里需要至少另外一人学会如何修改并承担起维护任务。
 
+关于导航栏和边栏的使用可以参考 [VuePress 官方文档](https://v2.vuepress.vuejs.org/zh/)。也可以查看他们的[导航栏配置](https://github.com/vuepress/vuepress-next/blob/main/docs/.vuepress/configs/navbar/zh.ts)，[边栏配置](https://github.com/vuepress/vuepress-next/blob/main/docs/.vuepress/configs/sidebar/zh.ts)，[主配置](https://github.com/vuepress/vuepress-next/blob/main/docs/.vuepress/config.ts)。
+
 ## 实时查看效果
 
 ::: tip

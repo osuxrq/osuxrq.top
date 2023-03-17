@@ -38,14 +38,14 @@ export default defineUserConfig({
                     },
                     {
                         text: "Meta",
-                        children: ["/meta/gongxian.md", "/meta/gongxianzhe.md"]
+                        children: ["/meta/gongxianzhinan.md", "/meta/gongxianzhe.md"]
                     },
                 ],
                 sidebar: {
                     // 边栏
                     "/jieshao/": ["/jieshao/README.md", "/jieshao/xilie.md"],
                     "/huodong/qunsai/": ["/huodong/qunsai/README.md", "/huodong/qunsai/1.md"],
-                    "/meta/": ["/meta/gongxian.md", "/meta/gongxianzhe.md"],
+                    "/meta/": ["/meta/gongxianzhinan.md", "/meta/gongxianzhe.md"],
                     "/lishi/": ["/lishi/", "/lishi/mingrentang.md"],
                 },
                 editLink: true,
