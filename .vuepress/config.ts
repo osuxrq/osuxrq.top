@@ -15,6 +15,10 @@ export default defineUserConfig({
                 navbar: [
                     // 导航栏示例
                     {
+                        text: "介绍",
+                        children: ["/jieshao/"]
+                    },
+                    {
                         text: '更多',
                         children: [
                             {
@@ -31,6 +35,7 @@ export default defineUserConfig({
                 ],
                 sidebar: {
                     // 边栏示例
+                    "/jieshao/": ["/jieshao/README.md", "/jieshao/xilie.md"],
                     "/huodong/qunsai/": ["/huodong/qunsai/README.md", "/huodong/qunsai/1.md"],
                     "/meta/": ["/meta/gongxian.md", "/meta/gongxianzhe.md"],
                 },

@@ -23,8 +23,23 @@ lang: zh-CN
 
 例如，“/huodong/qunsai/README.md”的 URL 是“/huodong/qunsai/”，“/huodong/qunsai/1.md”的 URL 是“/huodong/qunsai/1”。
 
+然后在文件中添加 Header：
+
+```
+---
+title: 群赛
+lang: zh-CN
+---
+```
+
+后面写正文，使用 Markdown 语法，不要再使用一级标题。
+
+如果不会 Markdown，自行搜索 Markdown 语法，非常好学。最基础的就是起新段落要换两行。
+
 ### 修改导航栏和边栏（如果需要）
 在 .vuepress/config.ts 中修改导航栏和边栏以便在其中增加页面。
+
+这里需要至少另外一人学会如何修改并承担起维护任务。
 
 ## 实时查看效果
 
