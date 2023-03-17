@@ -13,10 +13,13 @@ export default defineUserConfig({
         locales: {
             '/': {
                 navbar: [
-                    // 导航栏示例
+                    // 导航栏
                     {
                         text: "介绍",
-                        children: ["/jieshao/"]
+                        children: ["/jieshao/", {
+                            text: "osu! 新人群历史",
+                            link: "/lishi/"
+                        },]
                     },
                     {
                         text: '更多',
@@ -25,7 +28,7 @@ export default defineUserConfig({
                                 text: "群活动",
                                 children: ["/huodong/qunsai/"]
                             },
-                            "/",
+                            "/lishi/mingrentang.md"
                         ]
                     },
                     {
@@ -34,10 +37,11 @@ export default defineUserConfig({
                     },
                 ],
                 sidebar: {
-                    // 边栏示例
+                    // 边栏
                     "/jieshao/": ["/jieshao/README.md", "/jieshao/xilie.md"],
                     "/huodong/qunsai/": ["/huodong/qunsai/README.md", "/huodong/qunsai/1.md"],
                     "/meta/": ["/meta/gongxian.md", "/meta/gongxianzhe.md"],
+                    "/lishi/": ["/lishi/", "/lishi/mingrentang.md"],
                 },
                 editLink: true,
                 editLinkText: '在 GitHub 上编辑此页',
