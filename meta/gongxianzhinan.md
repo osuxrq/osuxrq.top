@@ -50,3 +50,6 @@ lang: zh-CN
 :::
 
 在文件夹内运行 `npm run docs:dev`，然后点击显示的链接即可查看效果。如果不熟悉 VuePress，请务必在提交 Pull Request 前检查。
+
+## 著作权
+除非另有声明，本站内容采用 CC BY-NC-SA 4.0 授权。当你贡献时，视为你将你贡献的内容同样使用 CC BY-NC-SA 4.0 进行授权。

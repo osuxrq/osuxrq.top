@@ -66,7 +66,7 @@ export default defineUserConfig({
             },
         },
         repo: 'osuxrq/osuxrq.top',
-        lastUpdated: false,
+        lastUpdated: true,
         contributors: true,
         docsRepo: 'osuxrq/osuxrq.top',
         docsBranch: 'main',
