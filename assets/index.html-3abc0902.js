@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-680b5bdc","path":"/huodong/qunsai/","title":"群赛","lang":"zh-CN","frontmatter":{"title":"群赛","lang":"zh-CN"},"headers":[],"git":{"updatedTime":1679011349000,"contributors":[{"name":"bleatingsheep","email":"bleatingsheep@live.cn","commits":1}]},"filePathRelative":"huodong/qunsai/README.md"}');export{e as data};

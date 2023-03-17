@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-0b09193c","path":"/huodong/","title":"活动","lang":"zh-CN","frontmatter":{"title":"活动","lang":"zh-CN"},"headers":[],"git":{"updatedTime":1679010063000,"contributors":[{"name":"bleatingsheep","email":"bleatingsheep@live.cn","commits":1}]},"filePathRelative":"huodong/README.md"}');export{e as data};
