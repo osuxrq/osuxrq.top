@@ -33,7 +33,11 @@ export default defineUserConfig({
                                 text: "群活动",
                                 children: ["/huodong/qunsai/"]
                             },
-                            "/lishi/mingrentang.md"
+                            "/lishi/mingrentang.md",
+                            {
+                                text: "群内 bot",
+                                children: ["/bot/"]
+                            },
                         ]
                     },
                     {
@@ -44,13 +48,14 @@ export default defineUserConfig({
                 sidebar: {
                     // 边栏
                     "/jieshao/": ["/jieshao/README.md", "/jieshao/xilie.md"],
-                    "/huodong/qunsai/": ["/huodong/qunsai/README.md", "/huodong/qunsai/1.md", "/huodong/qunsai/26.md"],
+                    "/huodong/qunsai/": ["/huodong/qunsai/README.md", "/huodong/qunsai/1.md"],
                     "/meta/": ["/meta/gongxianzhinan.md", "/meta/gongxianzhe.md"],
                     "/lishi/": [
                         "/lishi/",
                         "/lishi/qunzhu.md",
                         "/lishi/mingrentang.md",
                     ],
+                    "/bot/": ["/bot/"],
                 },
                 editLink: true,
                 editLinkText: '在 GitHub 上编辑此页',
