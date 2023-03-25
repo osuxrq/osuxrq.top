@@ -1,30 +1,77 @@
 ---
 home: true
 title: 首页
-heroImage: /images/hero.png
+heroImage: /images/hero.jpg
 actions:
-  - text: 这是某个链接
-    link: /zh/guide/getting-started.html
+  - text: 加入新人群
+    link: https://jq.qq.com/?_wv=1027&k=8aOgcKRy
     type: primary
-  - text: 这是另一个链接
-    link: /zh/guide/
+  - text: 浏览系列群
+    link: /introduction/series.md
     type: secondary
 features:
-  - title: 简洁至上
-    details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
-  - title: Vue 驱动
-    details: 享受 Vue 的开发体验，可以在 Markdown 中使用 Vue 组件，又可以使用 Vue 来开发自定义主题。
-  - title: 高性能
-    details: VuePress 会为每个页面预渲染生成静态的 HTML，同时，每个页面被加载的时候，将作为 SPA 运行。
-  - title: 主题
-    details: 提供了一个开箱即用的默认主题。你也可以挑选一个社区主题，或者创建一个你自己的主题。
-  - title: 插件
-    details: 灵活的插件API，使得插件可以为你的站点提供许多即插即用的功能。
-  - title: 打包工具
-    details: 默认的打包工具是 Vite ，也同样支持 Webpack 。选一个你喜欢的来使用吧！
-footer: MIT Licensed | Copyright © 2018-present Evan You
+  - title: 友好交流
+    details: 新人群提供了一个友好的交流环境。与水平相近的玩家交流或一起游戏吧！
+  - title: 提升自己
+    details: 新人群还设立了涵盖不同 PP 分段的分支群，为你的成神之路保驾护航！
+  - title: 获取资源
+    details: 新人群含有 osu! 游戏文件、皮肤、曲包、直播工具等资源，快速上手就现在！
+  - title: 成绩查询
+    details: 新人群内入驻了多个大陆社区流行的机器人 (Bot)，方便你向大家展露刚获得的完美成绩！
+  - title: 参与活动
+    details: 新人群会不定期举办群赛、悬赏等活动，参与并赢取奖品和 osu! 支持者！(Supporter)
+  - title: 加入团队
+    details: 想要加入新人群管理团队并发光发热？联系我们！
+footer: MIT Licensed | Copyright © 2023 bleatingsheep
 ---
 
-# Hello VuePress
+# 新人群管理组列表
 
-<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
+## 在职和活跃管理
+
+| 常用昵称 | 用户名 | QQ 号 | 活跃状态 | 主要负责方向 |
+| :--: | :--: | :--: | :--: | :--: |
+| 咩羊 | bleatingsheep | 962549599 | **半活跃** | 维护消防栓 Bot |
+| 化学式 | C8N16O32 | 546748348 | **半活跃** | 推荐谱面 |
+| 桃乐丝 | taolex | 2639140005 | **半活跃** | 管理新人群管理组 |
+| 菲利卡 | Firika | 1012621328 | **在职** | 作图顾问 |
+| whir | Hiiragi Kagami | 178039743 | **在职** | 提供OWC观赛解说、新人一对一指导、记录新人群历史 |
+| 白季 | White_Season | 447503971 | **在职** | 新人指导 |
+| 吸歪 | CYCLC | 630060047 | **在职** | 新人指导 |
+| inter | -interesting- | 405622418 | **半活跃** | 维护国内第一个 osubot：interbot |
+| 果子 | Guozi on osu | 2624161473 | **在职** | 提供 EWC 等比赛指导 |
+| 铁男 | IronWitness | 1208604740 | **在职** | 专门管那些不听话的群友 |
+| 木子 | Muziyami | 1340691940 | **在职** | 第五任新人群群主 |
+| 幻影 | huanying | 1904625512 | **在职** | 制作集锦、维护消防栓 Bot |
+| - | Morika | 2636027237 | **在职** | 新人指导 |
+| 爬哥 | UselessPlayer<br />Kazumi Pager | 1172482284 | **在职** | 新人指导 |
+| 嗨皮 | osu happy | 3203995073 | **在职** | 新人指导 |
+| MM | Mimosa M | 3438313440 | **在职** | 新人指导 |
+| 幽幽子 | SIyuyuko | 3228981717 | **在职** | 审核加群人员、参与群赛选图、新人指导 |
+| 暮色 | m u s e | 1528769425 | **在职** | 卖弱担当 |
+| 小四 | -Hermit- | 1985958893 | **在职** | 曾任管理 |
+| 彩虹 | - Rainbow - | 1242400248 | **在职** | 制作集锦视频 |
+| 茉莉 | Molli | 2733494248 | **在职** | 新人指导 |
+
+## 离职和不活跃管理
+
+| 常用昵称 | 用户名 | QQ 号 | 活跃状态 | 主要负责方向 |
+| :--: | :--: | :--: | :--: | :--: |
+| 大楼 | SuperDalouBot | 1061566571 | 不活跃 | 第三任新人群群主，维护大楼 Bot |
+| 844 | Hidden me | 431600414 | 不活跃 | HD 模组顾问 |
+| 斑斑 | heisibian | 2541721178 | 不活跃 | 新人指导 |
+| - | Rolling Girl | 1597273233 | 不活跃 | 新人指导 |
+| 阿卡雷 | Arcareh | 510807657 | 不活跃 | 新人指导 |
+| 3L | lonelyling | 517339748 | 不活跃 | 新人指导 |
+| A9 | Archer9 | 97512825 | 不活跃 | 参与进阶群群赛选图工作 |
+| 龙哥 | 2313261467 | 2313261467 | 不活跃 | 新人指导 |
+| - | godel | 123312230 | 不活跃 | 第一任新人群群主 |
+| 世羽 | [SHIYU] | 1224633938 | 不活跃 | whir 学弟，炸群时短暂当过临时管理 |
+| SSR | shadowsocksR | 986176546 | 不活跃 | 群赛策划 |
+| 凪 | na-gi | 944072537 | 不活跃 | 第四任新人群群主 |
+| 咕总 | zfxggg | 1628431513 | 不活跃 | 第二任新人群群主，移除了[myangelzfxggg](https://osu.ppy.sh/users/11375105) |
+| 猫塚 | HecateFlandre | 1065962220 | 不活跃 | 前管理组 |
+| 大拿 | Dana Iclucia | 2785719748 | 不活跃 | 新人指导 |
+| 猫猫球 | - Se Tsu Nya -<br />Camellia | 2718192018 | 不活跃 | 举办推图、多人游戏活动 |
+| - | hvick226 | 1904603706 | 不活跃 | 新人指导 |
+
