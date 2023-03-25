@@ -65,8 +65,8 @@ export default defineUserConfig({
                     ],
                     "/events/ocnc/": [
                         "/events/ocnc/README.md",
-                        "/events/ocnc/1.md",
-                        "/events/ocnc/26.md"
+                        "/events/ocnc/26.md",
+                        "/events/ocnc/27.md"
                     ],
                     "/meta/": [
                         "/meta/contributer.md",
