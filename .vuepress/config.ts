@@ -82,7 +82,6 @@ export default defineUserConfig({
                         "/introduction/README.md",
                         "/introduction/how-to-join.md",
                         "/introduction/series.md",
-                        "/introduction/administrators.md",
                     ],
                     "/events/ocnc/": [
                         "/events/ocnc/README.md",
@@ -95,8 +94,12 @@ export default defineUserConfig({
                     ],
                     "/history/": [
                         "/history/README.md",
-                        "/history/owner.md",
-                        "/history/alumni.md",
+                    ],
+                    "/people/": [
+                        "/people/README.md",
+                        "/people/owner.md",
+                        "/people/administrators.md",
+                        "/people/alumni.md",
                     ],
                     "/bot/": ["/bot/"],
                 },
