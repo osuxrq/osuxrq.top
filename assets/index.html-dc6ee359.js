@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-1096cfc9","path":"/events/ocnc/","title":"群赛","lang":"zh-CN","frontmatter":{"title":"群赛","lang":"zh-CN"},"headers":[],"git":{"updatedTime":1679638127000,"contributors":[{"name":"YumeMuzi","email":"77779996+YumeMuzi@users.noreply.github.com","commits":1}]},"filePathRelative":"events/ocnc/README.md"}');export{e as data};

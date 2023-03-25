@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-5dca675e","path":"/events/ocnc/1.html","title":"第1届新人群群赛","lang":"zh-CN","frontmatter":{"title":"第1届新人群群赛","lang":"zh-CN"},"headers":[],"git":{"updatedTime":1679638127000,"contributors":[{"name":"YumeMuzi","email":"77779996+YumeMuzi@users.noreply.github.com","commits":1}]},"filePathRelative":"events/ocnc/1.md"}');export{e as data};
