@@ -2,6 +2,9 @@ import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from 'vuepress'
 
 export default defineUserConfig({
+    head: [
+        ["script", { "src": "/js/image-scale.js" }],
+    ],
     locales: {
         '/': {
             lang: 'zh-CN',
@@ -14,6 +17,7 @@ export default defineUserConfig({
             '/': {
                 navbar: [
                     // 导航栏
+                    "/introduction/how-to-join.md",
                     {
                         text: "介绍",
                         children: [
@@ -60,8 +64,10 @@ export default defineUserConfig({
                 sidebar: {
                     // 边栏
                     "/introduction/": [
-                        "/introduction/README.md", 
-                        "/introduction/series.md"
+                        "/introduction/README.md",
+                        "/introduction/how-to-join.md",
+                        "/introduction/series.md",
+                        "/introduction/administrators.md",
                     ],
                     "/events/ocnc/": [
                         "/events/ocnc/README.md",
