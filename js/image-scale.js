@@ -1,15 +1,11 @@
 (function () {
-    console.log("image scaling");
-    console.log(document.readyState);
-
     let images2 = document.querySelectorAll("main img");
-    console.log("Found image count: " + images2.length);
     for (let i = 0; i < images2.length; i++) {
         let current = images2[i];
         console.log(current.src);
         try {
             let path = decodeURIComponent(new URL(current.src).pathname);
-            let match = /-((?=\d|\.\d)\d*\.?\d*)x\.[a-z]+$/i.exec(path);
+            let match = /-((?=\d|\.\d)\d*\.?\d*)x(?:-[0-9a-f]{7,})?\.[0-9a-z]+$/i.exec(path);
             if (match == null) {
                 continue;
             }
