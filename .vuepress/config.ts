@@ -23,10 +23,25 @@ export default defineUserConfig({
                         children: [
                             {
                                 text: "简介",
-                                link: "/introduction/"
+                                children: ["/introduction/"]
                             }, {
                                 text: "历史",
-                                link: "/history/"
+                                children: ["/history/"]
+                            },
+                        ]
+                    },
+                    {
+                        text: "人员",
+                        children: [
+                            {
+                                text: "群主",
+                                children: ["/people/owner.md"]
+                            }, {
+                                text: "管理",
+                                children: [ "/people/administrators.md"]
+                            }, {
+                                text: "名人堂",
+                                children: ["/people/alumni.md"]
                             },
                         ]
                     },
@@ -38,11 +53,7 @@ export default defineUserConfig({
                                 children: ["/events/ocnc/"]
                             },
                             {
-                                text: "名人堂",
-                                children: ["/history/alumni.md"]
-                            },
-                            {
-                                text: "群内 bot",
+                                text: "群机器人",
                                 children: ["/bot/"]
                             },
                             {
