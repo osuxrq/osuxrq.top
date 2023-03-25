@@ -45,6 +45,10 @@ export default defineUserConfig({
                                 text: "群内 bot",
                                 children: ["/bot/"]
                             },
+                            {
+                                text: "新人群的回忆",
+                                link: "https://meme.osuxrq.top/"
+                            },
                         ]
                     },
                     {
