@@ -1,7 +1,7 @@
 ---
 home: true
 title: 首页
-heroImage: /images/hero.jpg
+heroImage: /images/hero.png
 actions:
   - text: 加入新人群
     link: https://jq.qq.com/?_wv=1027&k=8aOgcKRy
