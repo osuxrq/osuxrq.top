@@ -41,8 +41,9 @@ footer: MIT Licensed | Copyright © 2023 bleatingsheep
 | inter | -interesting- | 405622418 | **半活跃** | 维护国内第一个 osubot：interbot |
 | 果子 | Guozi on osu | 2624161473 | **在职** | 提供 EWC 等比赛指导 |
 | 铁男 | IronWitness | 1208604740 | **在职** | 专门管那些不听话的群友 |
+| 撒由里 | Sayori_yui | 2429299722 | **在职** | 群赛选图、导播 |
 | 木子 | Muziyami | 1340691940 | **在职** | 第五任新人群群主 |
-| 幻影 | huanying | 1904625512 | **在职** | 制作集锦、维护消防栓 Bot |
+| 幻影 | huanying | 1904625512 | **在职** | 制作集锦、维护消防栓 Bot、群赛导播 |
 | - | Morika | 2636027237 | **在职** | 新人指导 |
 | 爬哥 | UselessPlayer<br />Kazumi Pager | 1172482284 | **在职** | 新人指导 |
 | 嗨皮 | osu happy | 3203995073 | **在职** | 新人指导 |
