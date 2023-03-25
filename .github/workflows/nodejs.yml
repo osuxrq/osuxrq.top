@@ -35,6 +35,24 @@ jobs:
         uses: b11p/compress-action@patch-1
         with:
           target-directory: ".vuepress/dist"
+      - name: Upload artifact for deployment job
+        uses: actions/upload-artifact@v2
+        with:
+          name: vuepress-dist
+          path: ./.vuepress/dist
+
+  deploy:
+    if: github.event_name == 'push'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Download artifact from build job
+        uses: actions/download-artifact@v2
+        with:
+          name: vuepress-dist
+          path: ./.vuepress/dist
       - name: Push to deploy branch
         uses: peaceiris/actions-gh-pages@v3
         with:
