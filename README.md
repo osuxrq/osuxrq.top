@@ -22,5 +22,7 @@ features:
     details: 新人群会不定期举办群赛、悬赏等活动，参与并赢取奖品和 osu! 支持者！(Supporter)
   - title: 加入团队
     details: 想要加入新人群管理团队并发光发热？联系我们！
-footer: MIT Licensed | Copyright © 2023 bleatingsheep
+footer: |
+  <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。<br/>Copyright © 2023-present osu! 新人群, All Rights Reserved.
+footerHtml: true
 ---
