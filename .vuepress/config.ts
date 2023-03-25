@@ -6,7 +6,7 @@ export default defineUserConfig({
         '/': {
             lang: 'zh-CN',
             title: 'osu! 新人群',
-            description: '这里写网站描述',
+            description: '一个为新人而生的群聊团体。',
         }
     },
     theme: defaultTheme({
@@ -15,14 +15,14 @@ export default defineUserConfig({
                 navbar: [
                     // 导航栏
                     {
-                        text: "osu! 新人群介绍",
+                        text: "介绍",
                         children: [
                             {
-                                text: "介绍",
-                                link: "/jieshao/"
+                                text: "简介",
+                                link: "/introduction/"
                             }, {
                                 text: "历史",
-                                link: "/lishi/"
+                                link: "/history/"
                             },
                         ]
                     },
@@ -31,9 +31,12 @@ export default defineUserConfig({
                         children: [
                             {
                                 text: "群活动",
-                                children: ["/huodong/qunsai/"]
+                                children: ["/events/ocnc/"]
                             },
-                            "/lishi/mingrentang.md",
+                            {
+                                text: "名人堂",
+                                children: ["/history/alumni.md"]
+                            },
                             {
                                 text: "群内 bot",
                                 children: ["/bot/"]
@@ -41,19 +44,38 @@ export default defineUserConfig({
                         ]
                     },
                     {
-                        text: "Meta",
-                        children: ["/meta/gongxianzhinan.md", "/meta/gongxianzhe.md"]
+                        text: '贡献',
+                        children: [
+                            {
+                                text: "贡献者",
+                                children: ["/meta/contributer.md"]
+                            },
+                            {
+                                text: "贡献指南",
+                                children: ["/meta/contribution-guide.md"]
+                            },
+                        ]
                     },
                 ],
                 sidebar: {
                     // 边栏
-                    "/jieshao/": ["/jieshao/README.md", "/jieshao/xilie.md"],
-                    "/huodong/qunsai/": ["/huodong/qunsai/README.md", "/huodong/qunsai/1.md"],
-                    "/meta/": ["/meta/gongxianzhinan.md", "/meta/gongxianzhe.md"],
-                    "/lishi/": [
-                        "/lishi/",
-                        "/lishi/qunzhu.md",
-                        "/lishi/mingrentang.md",
+                    "/introduction/": [
+                        "/introduction/README.md", 
+                        "/introduction/series.md"
+                    ],
+                    "/events/ocnc/": [
+                        "/events/ocnc/README.md",
+                        "/events/ocnc/1.md",
+                        "/events/ocnc/26.md"
+                    ],
+                    "/meta/": [
+                        "/meta/contributer.md",
+                        "/meta/contribution-guide.md"
+                    ],
+                    "/history/": [
+                        "/history/README.md",
+                        "/history/owner.md",
+                        "/history/alumni.md",
                     ],
                     "/bot/": ["/bot/"],
                 },
