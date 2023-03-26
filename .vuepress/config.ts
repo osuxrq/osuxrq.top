@@ -21,27 +21,21 @@ export default defineUserConfig({
                     {
                         text: "介绍",
                         children: [
-                            {
-                                text: "简介",
-                                children: ["/introduction/"]
-                            }, {
-                                text: "历史",
-                                children: ["/history/"]
-                            },
+                            "/introduction/",
+                            "/history/",
                         ]
                     },
                     {
-                        text: "人员",
+                        text: "管理",
                         children: [
+                            "/people/README.md",
                             {
-                                text: "群主",
-                                children: ["/people/owner.md"]
-                            }, {
-                                text: "管理",
-                                children: [ "/people/administrators.md"]
-                            }, {
-                                text: "名人堂",
-                                children: ["/people/alumni.md"]
+                                text: '管理列表',
+                                children: [
+                                    "/people/owner.md",
+                                    "/people/administrators.md",
+                                    "/people/alumni.md",
+                                ]
                             },
                         ]
                     },
