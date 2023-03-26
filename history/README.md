@@ -1,5 +1,5 @@
 ---
-title: osu! 新人群历史
+title: 群历史
 lang: zh-CN
 ---
 ## 重大事件
