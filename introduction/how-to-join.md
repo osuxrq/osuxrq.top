@@ -9,4 +9,4 @@
 **入群链接** <https://jq.qq.com/?_wv=1027&k=8aOgcKRy>
 
 **二维码** <br/>
-![](./qrcode-2.75x.jpg)
+![](./qrcode-2x.jpg)
