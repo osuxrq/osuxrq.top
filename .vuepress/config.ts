@@ -40,19 +40,34 @@ export default defineUserConfig({
                         ]
                     },
                     {
+                        text: '活动',
+                        children: [
+                            "/events/README.md",
+                            {
+                                text: "活动列表",
+                                children: [
+                                    "/events/matches/",
+                                    "/events/chart/",
+                                    "/events/collections/"
+                                ]
+                            }
+                        ]
+                    },
+                    {
                         text: '更多',
                         children: [
                             {
-                                text: "群活动",
-                                children: ["/events/ocnc/"]
-                            },
-                            {
-                                text: "群机器人",
+                                text: "机器人",
                                 children: ["/bot/"]
                             },
                             {
-                                text: "新人群的回忆",
-                                link: "https://meme.osuxrq.top/"
+                                text: "其他",
+                                children: [
+                                    {
+                                        text: "新人群的回忆",
+                                        link: "https://meme.osuxrq.top/"
+                                    }
+                                ]
                             },
                         ]
                     },
@@ -61,7 +76,7 @@ export default defineUserConfig({
                         children: [
                             {
                                 text: "贡献者",
-                                children: ["/meta/contributer.md"]
+                                children: ["/meta/contributor.md"]
                             },
                             {
                                 text: "贡献指南",
@@ -77,13 +92,19 @@ export default defineUserConfig({
                         "/introduction/how-to-join.md",
                         "/introduction/series.md",
                     ],
-                    "/events/ocnc/": [
-                        "/events/ocnc/README.md",
-                        "/events/ocnc/26.md",
-                        "/events/ocnc/27.md"
+                    "/events/matches/": [
+                        "/events/matches/README.md",
+                        "/events/matches/26.md",
+                        "/events/matches/27.md"
+                    ],
+                    "/events/charts/": [
+                        "/events/charts/README.md",
+                    ],
+                    "/events/collections/": [
+                        "/events/collections/README.md",
                     ],
                     "/meta/": [
-                        "/meta/contributer.md",
+                        "/meta/contributor.md",
                         "/meta/contribution-guide.md"
                     ],
                     "/history/": [
