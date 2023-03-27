@@ -20,24 +20,11 @@ export default defineUserConfig({
                     "/introduction/how-to-join.md",
                     {
                         text: "介绍",
-                        children: [
-                            "/introduction/",
-                            "/history/",
-                        ]
+                        link: "/introduction/"
                     },
                     {
                         text: "管理",
-                        children: [
-                            "/people/README.md",
-                            {
-                                text: '管理列表',
-                                children: [
-                                    "/people/owner.md",
-                                    "/people/administrators.md",
-                                    "/people/alumni.md",
-                                ]
-                            },
-                        ]
+                        link: "/people/"
                     },
                     {
                         text: '活动',
@@ -56,32 +43,28 @@ export default defineUserConfig({
                     {
                         text: '更多',
                         children: [
+                            "/misc/bots/",
                             {
-                                text: "机器人",
-                                children: ["/bot/"]
-                            },
-                            {
-                                text: "其他",
+                                text: "新人群的回忆",
                                 children: [
                                     {
-                                        text: "新人群的回忆",
+                                        text: "开启回忆",
                                         link: "https://meme.osuxrq.top/"
-                                    }
+                                    },
+                                    {
+                                        text: "回忆指南",
+                                        link: "/misc/meme/"
+                                    },
                                 ]
                             },
                         ]
                     },
                     {
-                        text: '贡献',
+                        text: 'Meta',
                         children: [
-                            {
-                                text: "贡献者",
-                                children: ["/meta/contributor.md"]
-                            },
-                            {
-                                text: "贡献指南",
-                                children: ["/meta/contribution-guide.md"]
-                            },
+                            "/meta/contribution-guide",
+                            "/meta/contributor.md",
+                            "/meta/events.md",
                         ]
                     },
                 ],
@@ -91,27 +74,35 @@ export default defineUserConfig({
                         "/introduction/README.md",
                         "/introduction/how-to-join.md",
                         "/introduction/series.md",
+                        "/introduction/history.md",
                     ],
                     "/events/": [
                         "/events/README.md",
-                        "/events/matches/README.md",
-                        "/events/charts/README.md",
-                        "/events/collections/README.md",
-                    ],
-                    "/events/matches/": [
-                        "/events/matches/README.md",
-                        "/events/matches/26.md",
-                        "/events/matches/27.md"
-                    ],
-                    "/events/charts/": [
-                        "/events/charts/README.md",
-                    ],
-                    "/events/collections/": [
-                        "/events/collections/README.md",
+                        {
+                            text: "群赛",
+                            children: [
+                                "/events/matches/README.md",
+                                "/events/matches/26.md",
+                                "/events/matches/27.md",
+                            ],
+                        },
+                        {
+                            text: "悬赏",
+                            children: [
+                                "/events/charts/README.md",
+                            ],
+                        },
+                        {
+                            text: "集锦",
+                            children: [
+                                "/events/collections/README.md",
+                            ],
+                        },
                     ],
                     "/meta/": [
+                        "/meta/contribution-guide.md",
                         "/meta/contributor.md",
-                        "/meta/contribution-guide.md"
+                        "/meta/events.md",
                     ],
                     "/history/": [
                         "/history/README.md",
@@ -122,8 +113,8 @@ export default defineUserConfig({
                         "/people/administrators.md",
                         "/people/alumni.md",
                     ],
-                    "/bot/": ["/bot/"],
                 },
+                logo: "/images/hero.png",
                 editLink: true,
                 editLinkText: '在 GitHub 上编辑此页',
                 lastUpdatedText: "上次更新",
