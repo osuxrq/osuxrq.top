@@ -93,6 +93,7 @@ export default defineUserConfig({
                         "/introduction/series.md",
                     ],
                     "/events/": [
+                        "/events/README.md",
                         "/events/matches/README.md",
                         "/events/charts/README.md",
                         "/events/collections/README.md",
