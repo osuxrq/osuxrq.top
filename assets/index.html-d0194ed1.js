@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-17230252","path":"/events/collections/","title":"集锦列表","lang":"zh-CN","frontmatter":{"title":"集锦列表","lang":"zh-CN"},"headers":[],"git":{"updatedTime":1679937706000,"contributors":[{"name":"YumeMuzi","email":"77779996+YumeMuzi@users.noreply.github.com","commits":2}]},"filePathRelative":"events/collections/README.md"}');export{e as data};
