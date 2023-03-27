@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-190069d5","path":"/misc/meme/","title":"新人群的回忆","lang":"zh-CN","frontmatter":{},"headers":[{"level":2,"title":"投稿指南","slug":"投稿指南","link":"#投稿指南","children":[]}],"git":{"updatedTime":1679934548000,"contributors":[{"name":"bleatingsheep","email":"bleatingsheep@live.cn","commits":1}]},"filePathRelative":"misc/meme/README.md"}');export{e as data};
