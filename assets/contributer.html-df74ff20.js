@@ -1,1 +1,0 @@
-const t=JSON.parse('{"key":"v-5c48ec76","path":"/meta/contributer.html","title":"贡献者","lang":"zh-CN","frontmatter":{"title":"贡献者","lang":"zh-CN"},"headers":[],"git":{"updatedTime":1679638127000,"contributors":[{"name":"YumeMuzi","email":"77779996+YumeMuzi@users.noreply.github.com","commits":1}]},"filePathRelative":"meta/contributer.md"}');export{t as data};
