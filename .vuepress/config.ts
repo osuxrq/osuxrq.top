@@ -47,7 +47,7 @@ export default defineUserConfig({
                                 text: "活动列表",
                                 children: [
                                     "/events/matches/",
-                                    "/events/chart/",
+                                    "/events/charts/",
                                     "/events/collections/"
                                 ]
                             }
@@ -91,6 +91,11 @@ export default defineUserConfig({
                         "/introduction/README.md",
                         "/introduction/how-to-join.md",
                         "/introduction/series.md",
+                    ],
+                    "/events/": [
+                        "/events/matches/README.md",
+                        "/events/charts/README.md",
+                        "/events/collections/README.md",
                     ],
                     "/events/matches/": [
                         "/events/matches/README.md",
