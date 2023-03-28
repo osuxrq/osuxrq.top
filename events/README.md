@@ -64,12 +64,12 @@ lang: zh-CN
 
 ## 悬赏
 
-参见：[悬赏列表](matches/README.md)
+参见：[悬赏列表](charts/README.md)
 
 **悬赏** (charts) 即需要参与者挑战某张或多张谱面，并争取奖励的活动。若玩家达成悬赏所属的要求或排名靠前，即可获得悬赏对应的奖励。
 
 ## 集锦
 
-参见：[集锦列表](matches/README.md)
+参见：[集锦列表](collections/README.md)
 
 **集锦** (collections) 即管理员收集参与者的游戏回放，制作视频并发至视频网站，供大家鉴赏的活动。
