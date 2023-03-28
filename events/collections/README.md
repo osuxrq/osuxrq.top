@@ -69,10 +69,10 @@ lang: zh-CN
 
 ## 彩蛋
 
-- osu! 新人群 2023 年 1-3 月集锦（？）- [BV](https://www.bilibili.com/video/)
+- osu! 新人群 2023 年 1-3 月集锦（？）- [BV17c411j7G](https://www.bilibili.com/video/BV17c411j7G5/)
   - 这个集锦是愚人节特辑。
 - 消失的新人群集锦投稿 - [BV1pD4y1z7o7](https://www.bilibili.com/video/BV1pD4y1z7o7)
   - 这个集锦很可能是进阶群 2022 后半年的投稿。
 
-- osu! 新人群 2022 年 1-3 月集锦（？）- [BV1PY4y1W7x6](https://www.bilibili.com/video/BV1Ma41147nb)
+- osu! 新人群 2022 年 1-3 月集锦（？）- [BV1PY4y1W7x6](https://www.bilibili.com/video/BV1PY4y1W7x6)
   - 这个集锦的投稿人员大多数是已经离开主群的群友。与[BV1Ma41147nb](https://www.bilibili.com/video/BV1Ma41147nb)做出区分。
