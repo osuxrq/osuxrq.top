@@ -4,6 +4,10 @@ import { defaultTheme } from 'vuepress'
 export default defineUserConfig({
     head: [
         ["script", { "src": "/js/image-scale.js" }],
+        ["link", {
+            "rel": "icon",
+            "href": "/images/hero.png",
+        }],
     ],
     locales: {
         '/': {
@@ -63,7 +67,7 @@ export default defineUserConfig({
                         text: 'Meta',
                         children: [
                             "/meta/contribution-guide",
-                            "/meta/contributor.md",
+                            "/meta/contributors.md",
                             "/meta/events.md",
                         ]
                     },
@@ -101,7 +105,7 @@ export default defineUserConfig({
                     ],
                     "/meta/": [
                         "/meta/contribution-guide.md",
-                        "/meta/contributor.md",
+                        "/meta/contributors.md",
                         "/meta/events.md",
                     ],
                     "/history/": [
