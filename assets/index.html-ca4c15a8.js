@@ -1,1 +1,0 @@
-import{_ as t,p as a,q as n,R as e,t as s}from"./framework-5866ffd3.js";const c={},o=e("h1",{id:"集锦列表",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#集锦列表","aria-hidden":"true"},"#"),s(" 集锦列表")],-1),r=e("p",null,"集锦是什么",-1),_=[o,r];function d(i,l){return a(),n("div",null,_)}const f=t(c,[["render",d],["__file","index.html.vue"]]);export{f as default};
