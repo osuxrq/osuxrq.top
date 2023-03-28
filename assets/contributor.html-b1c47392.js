@@ -1,1 +1,0 @@
-import{_ as t,p as r,q as o,R as e,t as a}from"./framework-5866ffd3.js";const c={},n=e("h1",{id:"贡献者",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#贡献者","aria-hidden":"true"},"#"),a(" 贡献者")],-1),s=[n];function _(d,i){return r(),o("div",null,s)}const l=t(c,[["render",_],["__file","contributor.html.vue"]]);export{l as default};
