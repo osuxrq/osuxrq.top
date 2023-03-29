@@ -37,6 +37,8 @@ lang: zh-CN
   - bp1达到180pp
   - bid:[86324](https://osu.ppy.sh/b/86324) **Taketori Hishou** 95acc以上pass
   - bid:[928371](https://osu.ppy.sh/b/928371) **Eclipse Parade [Insane]** 87acc以上pass
-  - bid:[53554](https://osu.ppy.sh/b/53554) **2012** 93acc以上pass
-  - 还有数张挑战，但随着新人群主群一代离我们远去已不可考，若有能考据者可以找Archer9补充.
+  - bid:[53554](https://osu.ppy.sh/b/53554) **2012** 800cb以上pass
+  - bid:[736214](https://osu.ppy.sh/beatmapsets/332532#osu/736214) **HighScore[Extra]** 90accpass
+  - bid:[771858](https://osu.ppy.sh/beatmapsets/257165#osu/771858) **TWEEKER[Lunatic]** 75accpass
+  - 任意两张五星Srankfc
 
