@@ -48,15 +48,15 @@ lang: zh-CN
 		- 6 月集锦 - [BV1kx411B7Pq](https://www.bilibili.com/video/BV1kx411B7Pq)
 		- 5 月集锦 - [BV1Wx411e7aC](https://www.bilibili.com/video/BV1Wx411e7aC)
 - ### 进阶群
-		- 2021 年 7 - 8 月集锦 -  [BV1RP4y1p7qw](https://www.bilibili.com/video/BV1RP4y1p7qw)
-		- 2021 年 5 - 6 月集锦 - [BV1dy4y1M764](https://www.bilibili.com/video/BV1dy4y1M764)
-		- 2021 年 3 - 4 月集锦 - [BV1Vw411f7eo](https://www.bilibili.com/video/BV1Vw411f7eo)
-		- 2019 年 7 月集锦 - [BV1vt411N7rb](https://www.bilibili.com/video/BV1vt411N7rb)
-		- 2019 年 1 - 2 月集锦 - [BV1r4411t7TT](https://www.bilibili.com/video/BV1r4411t7TT)
-		- 2018 年 12 月集锦 - [BV1Qb411S7qs](https://www.bilibili.com/video/BV1Qb411S7qs)
-		- 2018 年 10 月集锦 - [BV16b411w7rp](https://www.bilibili.com/video/BV16b411w7rp)
+	- 2021 年 7 - 8 月集锦 -  [BV1RP4y1p7qw](https://www.bilibili.com/video/BV1RP4y1p7qw)
+	- 2021 年 5 - 6 月集锦 - [BV1dy4y1M764](https://www.bilibili.com/video/BV1dy4y1M764)
+	- 2021 年 3 - 4 月集锦 - [BV1Vw411f7eo](https://www.bilibili.com/video/BV1Vw411f7eo)
+	- 2019 年 7 月集锦 - [BV1vt411N7rb](https://www.bilibili.com/video/BV1vt411N7rb)
+	- 2019 年 1 - 2 月集锦 - [BV1r4411t7TT](https://www.bilibili.com/video/BV1r4411t7TT)
+	- 2018 年 12 月集锦 - [BV1Qb411S7qs](https://www.bilibili.com/video/BV1Qb411S7qs)
+	- 2018 年 10 月集锦 - [BV16b411w7rp](https://www.bilibili.com/video/BV16b411w7rp)
 - ### 其他
-		- osu! 超星群第二期集锦 (2022-06-08) - [BV17A4y1R7xi](https://www.bilibili.com/video/BV17A4y1R7xi)
+	- osu! 超星群第二期集锦 (2022-06-08) - [BV17A4y1R7xi](https://www.bilibili.com/video/BV17A4y1R7xi)
 
 
 ## 同屏
