@@ -53,20 +53,18 @@ export default defineUserConfig({
                                 link: "/events/README.md",
                                 activeMatch: "^/events/$",
                             },
-                            {
-                                text: "活动列表",
-                                children: [
-                                    "/events/matches/",
-                                    "/events/charts/",
-                                    "/events/collections/"
-                                ]
-                            }
+                            "/events/matches/",
+                            "/events/charts/",
+                            "/events/collections/"
                         ]
                     },
                     {
                         text: '更多',
                         children: [
-                            "/misc/bots/",
+                            {
+                                text: "机器人",
+                                link: "/misc/bots/"
+                            },
                             {
                                 text: "新人群的回忆",
                                 children: [
