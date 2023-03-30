@@ -22,18 +22,37 @@ export default defineUserConfig({
                 navbar: [
                     // 导航栏
                     "/introduction/how-to-join.md",
+                    // 下面是永远不会匹配任何东西的 Regex
+                    // 如果你希望在加群页面也高亮“介绍”的话，
+                    // 就把加群的 activeMatch 设置为这个 Regex
+                    // 以避免匹配到
+                    // ^(?!x)x
                     {
                         text: "介绍",
-                        link: "/introduction/"
+                        link: "/introduction/",
+                        activeMatch: "^/introduction/(?!how-to-join)",
                     },
                     {
                         text: "管理",
-                        link: "/people/"
+                        children: [
+                            {
+                                text: "管理组",
+                                link: "/people/",
+                                activeMatch: "^/people/$",
+                            },
+                            "/people/owner.md",
+                            "/people/administrators.md",
+                            "/people/alumni.md",
+                        ]
                     },
                     {
                         text: '活动',
                         children: [
-                            "/events/README.md",
+                            {
+                                text: "活动",
+                                link: "/events/README.md",
+                                activeMatch: "^/events/$",
+                            },
                             {
                                 text: "活动列表",
                                 children: [
