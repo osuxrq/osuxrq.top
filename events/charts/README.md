@@ -24,7 +24,7 @@ lang: zh-CN
 - 高阶群月chart  
   根据游玩表格内的图池包并提交来赢得**猫猫banner**，更有机会获得**撒波特**和**定制猫猫banner**  
   成绩提交方式为**rep提交**(目前还未出现作弊行为，但之后可能会更改提交方式）　　
-  - [2023 年 3 月](https://docs.qq.com/sheet/DZVVPb29OZFpNbFRx?tab=BB08J2)
+  - [2023 年](https://docs.qq.com/sheet/DZVVPb29OZFpNbFRx?tab=BB08J2)
 ## 挑战
 
 - 后花园 - 2017 年 8 月 29 日 - godel
