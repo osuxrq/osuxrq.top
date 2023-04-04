@@ -108,6 +108,8 @@ export default defineUserConfig({
                                 "/events/matches/25.md",
                                 "/events/matches/26.md",
                                 "/events/matches/27.md",
+                                "/events/matches/a1.md",
+                                "/events/matches/a2.md",
                                 "/events/matches/y1.md",
                                 "/events/matches/y2.md",
                                 "/events/matches/y3.md",
