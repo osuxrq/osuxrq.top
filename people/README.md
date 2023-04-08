@@ -46,7 +46,7 @@ osu! 新人群系列现有管理 **32** 人，活跃 **20** 人，群主 **5** �
   - lolol727
   - muse ass
   - Mimosa M
-  - Morika
+  - Molli
   - na-gi
   - Sayori_yui
   - SIyuyuko
@@ -70,4 +70,5 @@ osu! 新人群系列现有管理 **32** 人，活跃 **20** 人，群主 **5** �
   - lolol233：参与 OWC 选拔赛
 - 做出卓越贡献的群友：
   - \- E C \-：曾制作集锦
+  - PercyDan：曾制作集锦
   - Vup：曾作为猫猫机器人的代行账号
