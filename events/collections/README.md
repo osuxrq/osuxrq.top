@@ -10,6 +10,8 @@ lang: zh-CN
 <!-- 新的放上面 -->
 
 - ### osu! 新人群
+	- **2023 年**
+		- 1 - 3 月集锦 - [BV1sk4y1i7hi](https://www.bilibili.com/video/BV1sk4y1i7hi)	
 	- **2022 年**
 		- 10 - 12 月集锦 - [BV12D4y157u1](https://www.bilibili.com/video/BV12D4y157u1)
 		- 7 - 9 月集锦 - [BV19P41157Sb](https://www.bilibili.com/video/BV19P41157Sb)
@@ -82,8 +84,10 @@ lang: zh-CN
 
 ## 彩蛋
 
+- osu！新人群2023年 1-3月集锦DLC - [BV16V4y1f7E6](https://www.bilibili.com/video/BV16V4y1f7E6)
+  - 这个集锦可能是2023年1-3月集锦的剩余投稿。	 
 - osu! 新人群 2023 年 1-3 月集锦（？）- [BV17c411j7G](https://www.bilibili.com/video/BV17c411j7G5/)
-  - 这个集锦是愚人节特辑。
+  - 这个集锦出自第十一届新人群的群友，大多数也离开了新人群，与[BV1sk4y1i7hi](https://www.bilibili.com/video/BV1sk4y1i7hi)做出区分。
 - 消失的新人群集锦投稿 - [BV1pD4y1z7o7](https://www.bilibili.com/video/BV1pD4y1z7o7)
   - 这个集锦很可能是进阶群 2022 后半年的投稿。
 
