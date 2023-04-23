@@ -15,9 +15,9 @@ lang: zh-CN
 
 属于 #1 **策划**分类的管理主要负责：
 
-- **群赛**：安排、组织[新人群群赛](events/matches/README.md)，给群赛选图，并给获得名次的新人发放奖励。
-- **头衔**：推出每个月的[头衔图](events/charts/README.md)，并以公告形式发出。
-- **集锦**：收集、制作每月度或者每季度的[新人群集锦](events/collections/README.md)。
+- **群赛**：安排、组织[新人群群赛](https://osuxrq.top/events/matches/README.md)，给群赛选图，并给获得名次的新人发放奖励。
+- **头衔**：推出每个月的[头衔图](https://osuxrq.top/events/charts/README.md)，并以公告形式发出。
+- **集锦**：收集、制作每月度或者每季度的[新人群集锦](https://osuxrq.top/events/collections/README.md)。
 
 ### 指导
 
@@ -39,7 +39,7 @@ lang: zh-CN
 
 属于 #4 **维护**分类的管理主要负责：
 
-- **开发**：开发并维护与新人群有关的机器人 (BOT)，研发对应的功能。
+- **开发**：开发并维护与新人群有关的机器人 (Bot)，研发对应的功能。
 - **网站**：维护[新人群网站](https://osuxrq.top)，确保内容最新且无误。
 - **清理**：清理群文件夹内不必要的文件。
 
@@ -61,7 +61,7 @@ lang: zh-CN
 | 白季 | White_Season | 447503971 | #2 指导 | - |
 | 吸歪<br />CY | CYCLC | 630060047 | #2 指导 | - |
 | inter | -interesting- | 405622418 | #4 维护 | 维护国内第一个 osubot：interbot |
-| 果子 | Guozi on Osu | 2624161473 | #2 指导 | 提供 EWC 等比赛指导 |
+| 果子 | Guozi on Osu | 2624161473 | #2 指导<br />#4 维护 | 提供 EWC 等比赛指导、维护果果猫（代理猫猫 Bot） |
 | 铁男 | IronWitness | 1208604740 | #3 审查 | 专门管那些不听话的群友 |
 | 撒由里 | Sayori_yui | 2429299722 | #1 策划 | 群赛选图、导播 |
 | 幻影 | huanying | 1904625512 | #1 策划<br />#4 维护 | 制作集锦视频、维护消防栓 Bot、群赛策划和导播 |
