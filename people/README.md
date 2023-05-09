@@ -51,10 +51,10 @@ osu! 新人群系列现有管理 **32** 人，活跃 **19** 人，群主 **5** �
     - Guozi on Osu
     - Hiiragi Kagami
     - muse ass
-    - Mimosa M
     - na-gi
   - 审查
     - IronWitness
+    - Mimosa M
     - SIyuyuko
   - 维护
     - inter
