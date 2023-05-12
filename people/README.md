@@ -4,7 +4,7 @@ lang: zh-CN
 ---
 # 新人群管理组列表
 
-osu! 新人群系列现有管理 **32** 人，活跃 **19** 人，群主 **5** 人，活跃 **1** 人。
+osu! 新人群系列现有管理 **37** 人，活跃 **19** 人，群主 **5** 人，活跃 **1** 人。
 
 ## 群主
 
@@ -22,22 +22,22 @@ osu! 新人群系列现有管理 **32** 人，活跃 **19** 人，群主 **5** �
 
 - **新人群管理**：
   - 策划
-    - \- Rainbow \-
+    - Celia-Claire
     - Molli
     - huanying
   - 指导
     - \-Inui Sana\-
+    - Aokreti
     - Firika
-    - Guozi on Osu
     - Hiiragi Kagami
-    - Morika
     - muse ass
-    - na-gi
     - osu happy
     - Sayori\_yui
   - 审查
+    - \- Rainbow \-
     - IronWitness
     - Mimosa M
+    - n0000000000o
     - SIyuyuko
   - 维护
     - inter
@@ -46,28 +46,30 @@ osu! 新人群系列现有管理 **32** 人，活跃 **19** 人，群主 **5** �
   - 策划
     - Molli
     - Sayori_yui
+    - Senbe1
+    - VialVistas
   - 指导
     - Firika
-    - Guozi on Osu
     - Hiiragi Kagami
     - muse ass
-    - na-gi
   - 审查
     - IronWitness
     - Mimosa M
     - SIyuyuko
   - 维护
+    - \-spring night\-
     - inter
     - bleatingsheep
 - **高阶群管理**：
   - 策划
-    - \- Rainbow \-
     - lolol727
     - Sayori_yui
+    - VialVistas
   - 指导
     - Guozi on Osu
     - Hiiragi Kagami
   - 审查
+    - \- Rainbow \-
     - IronWitness
     - Mimosa M
     - SIyuyuko
