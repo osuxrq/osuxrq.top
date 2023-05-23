@@ -104,6 +104,10 @@ export default defineUserConfig({
                             children: [
                                 "/events/matches/README.md",
                                 "/events/matches/2.md",
+                                "/events/matches/20.md",
+                                "/events/matches/21.md",
+                                "/events/matches/22.md",
+                                "/events/matches/23.md",
                                 "/events/matches/24.md",
                                 "/events/matches/25.md",
                                 "/events/matches/26.md",
