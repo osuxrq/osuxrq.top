@@ -8,7 +8,7 @@ lang: zh-CN
 
 ## 月赛
 
-参见：[高阶群月赛主表格](https://docs.qq.com/sheet/DZVVPb29OZFpNbFRx?tab=b14i1q)
+参见：[高阶群月赛主网站](https://mcnc.crzteam.cn/sheet?src=https://mcnc.crzteam.cn/static/hoc-mappools.html)、[旧版表格](https://docs.qq.com/sheet/DZVVPb29OZFpNbFRx?tab=b14i1q)
 
 **高阶群月赛** (High Order Chart) 也称为高阶群月 Chart，主要由[高阶群策划管理](../../people/administrators.md)负责。
 
