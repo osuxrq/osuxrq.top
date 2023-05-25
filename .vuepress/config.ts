@@ -125,6 +125,9 @@ export default defineUserConfig({
                             text: "悬赏",
                             children: [
                                 "/events/charts/README.md",
+                                "/events/charts/h2303.md",
+                                "/events/charts/h2304.md",
+                                "/events/charts/h2305.md",
                             ],
                         },
                         {
