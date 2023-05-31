@@ -10,6 +10,10 @@ lang: zh-CN
 - [-Spring Night-](https://osu.ppy.sh/users/17064371) (2023/3/21)
 - [[Lily_White]](https://osu.ppy.sh/users/12749779) (2023/3/24)
 - [ShandenOnter](https://osu.ppy.sh/users/13999223) (2023/4/14)
+- [ICboom](https://osu.ppy.sh/users/4007552) (2023/5/20)
+- [Flamouria](https://osu.ppy.sh/users/13048150) (2023/5/25)
+- [[ Sakana ]](https://osu.ppy.sh/users/29825758) (2023/5/25)
+- [Stick_Fish](https://osu.ppy.sh/users/13358640) (2023/5/30)
 
 ## 出群后表现优异
 
