@@ -68,11 +68,11 @@ lang: zh-CN
 | MM | Mimosa M | 3438313440 | 审查 | - |
 | 幽幽子 | SIyuyuko | 3228981717 | 审查 | 制作多人光标同屏视频 |
 | 暮色 | muse ass<br />m u s e | 1528769425 | 指导 | - |
-| 彩虹 | - Rainbow - | 1242400248 | 策划 | 制作集锦视频 |
+| 彩虹 | - Rainbow - | 1242400248 | 审查 | 高阶群Chart（HOC）第二任主办 |
 | 茉莉 | Molli | 2733494248 | 策划 | 策划进阶群活动 |
 | 小A | Aokreti | 3251924929 | 指导 | - |
 | n100 | n0000000000o | 1120180945 | 审查 | - |
-| 雨沫(mò) | Celia-Claire | 645964361 | 策划 | - |
+| 雨沫(mò) | Celia-Claire | 645964361 | 策划 | 制作集锦视频 |
 | VV | VialVistas | 2733450423 | 策划 | - |
 | 春晚 | -spring night- | 365246692 | 维护 | YumuBot 主维护 |
 | 仙贝 | Senbe1 | 1318654060 | 策划 | ~~金主~~ |
@@ -99,5 +99,5 @@ lang: zh-CN
 | 小四 | -Hermit- | 1985958893 | 指导 | - |
 | 白季 | White_Season | 447503971 | 指导 | - |
 | - | Morika | 2636027237 | 指导 | - |
-| 爬哥 | lolol727<br />UselessPlayer<br />Kazumi Pager | 1172482284 | 策划 | 举办进阶群群赛，<br />因反噬离开了管理组 |
+| 爬哥 | lolol727<br />UselessPlayer<br />Kazumi Pager | 1172482284 | 策划 | 举办进阶群群赛，<br />高阶群Chart（HOC）第一任主办，<br />因反噬离开了管理组 |
 
