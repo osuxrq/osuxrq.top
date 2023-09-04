@@ -67,6 +67,7 @@ lang: zh-CN
 
 ## 同屏
 
+- osu! 新人群 2023 年 5 月同屏 - [BV1so4y1M7Hd](https://www.bilibili.com/video/BV1so4y1M7Hd)
 - osu! 进阶群 2023 年 2 月同屏 - [BV1ss4y1S7Hp](https://www.bilibili.com/video/BV1ss4y1S7Hp)
 - osu! 新人群 2023 年 2 月同屏 - [BV1ro4y1s77A](https://www.bilibili.com/video/BV1ro4y1s77A)
 - osu! 新人群 2022 年 12 月同屏 - [BV1a3411D7r1](https://www.bilibili.com/video/BV1a3411D7r1)
