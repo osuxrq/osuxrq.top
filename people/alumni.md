@@ -14,6 +14,7 @@ lang: zh-CN
 - [Flamouria](https://osu.ppy.sh/users/13048150) (2023/5/25)
 - [[ Sakana ]](https://osu.ppy.sh/users/29825758) (2023/5/25)
 - [Stick_Fish](https://osu.ppy.sh/users/13358640) (2023/5/30)
+- [ttyuio](https://osu.ppy.sh/users/32679990) (2023/6/1)
 - [maduang](https://osu.ppy.sh/users/29081543) (2023/6/8)
 - [itsushini](https://osu.ppy.sh/users/17074316) (2023/6/15)
 - [Neutron torpedo](https://osu.ppy.sh/users/24657559) (2023/7/?)
