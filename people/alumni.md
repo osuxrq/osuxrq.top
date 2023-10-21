@@ -22,6 +22,7 @@ lang: zh-CN
 - [232333](https://osu.ppy.sh/users/7945343) (2023/8/24)
 - [Marisaya](https://osu.ppy.sh/users/13354073) (2023/9/09)
 - [red__pig](https://osu.ppy.sh/users/15603359) (2023/10/02)
+- [sion22](https://osu.ppy.sh/users/30137844) (2023/10/21)
 
 ## 出群后表现优异
 
