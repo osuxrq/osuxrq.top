@@ -4,13 +4,13 @@ lang: zh-CN
 ---
 # 新人群管理组列表
 
-osu! 新人群系列现有管理 **37** 人，活跃 **21** 人，群主 **5** 人，活跃 **1** 人。
+osu! 新人群系列现有管理 **37** 人，活跃 **21** 人，群主 **5** 人，活跃 **2** 人。
 
 ## 群主
 
 参见：[新人群群主列表](owner.md)
 
-- **新人群、进阶群、高阶群群主**：[Muziyami](https://osu.ppy.sh/u/Muziyami)
+- **新人群、进阶群、高阶群群主**：[na-gi](https://osu.ppy.sh/u/na-gi)
 - **超星群群主**：[zfxggg](https://osu.ppy.sh/u/zfxggg)
 - **旧进阶群群主**：[C8N16O32](https://osu.ppy.sh/u/C8N16O32)
 
