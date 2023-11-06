@@ -31,10 +31,10 @@ osu! 新人群系列现有管理 **38** 人，活跃 **20** 人，群主 **5** �
 |  | Senbe1 | Firika | IronWitness | Interesting |
 | | Molli | m u s e | Mimosa M | \-Spring Night\- |
 | | | | | |
-| 高阶群 | **UselessPlayer** | **Firika** | **Mimosa M** | **\-Spring Night\-** |
-| | Molli | Guozi on Osu | IronWitness | Interesting |
-| | VialVistas | | | bleatingsheep |
-| | \- Rainbow \- | | | |
+| 高阶群 | **UselessPlayer** | **Molli** | **Mimosa M** | **\-Spring Night\-** |
+| | VialVistas | Guozi on Osu | IronWitness | Interesting |
+| | \- Rainbow \- | Firika | | bleatingsheep |
+| |  | | | |
 
 以下是一些特殊的职责划分：
 
@@ -45,8 +45,8 @@ osu! 新人群系列现有管理 **38** 人，活跃 **20** 人，群主 **5** �
   - 进阶群头衔图、进阶群分段比赛宣传：VialVistas
   - 进阶群同屏活动：SIyuyuko
 - 高阶群：
-  - 高阶群月赛 (Chart、HOC) 主办：UselessPlayer
-  - 高阶群月赛 (Chart、HOC) 信息记录、回放文件收集、表格维护：Molli、\- Rainbow \-
+  - 高阶群月赛 (Chart、HOC) 主办：UselessPlayer、\- Rainbow \-
+  - 高阶群月赛 (Chart、HOC)选图者：Molli
   - 高阶群分段比赛宣传：VialVistas
 
 
