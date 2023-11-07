@@ -46,7 +46,7 @@ osu! 新人群系列现有管理 **38** 人，活跃 **20** 人，群主 **5** �
   - 进阶群同屏活动：SIyuyuko
 - 高阶群：
   - 高阶群月赛 (Chart、HOC) 主办：UselessPlayer、\- Rainbow \-
-  - 高阶群月赛 (Chart、HOC)选图者：Molli
+  - 高阶群月赛 (Chart、HOC) 选图者：Molli
   - 高阶群分段比赛宣传：VialVistas
 
 
