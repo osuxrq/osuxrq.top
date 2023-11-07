@@ -20,8 +20,12 @@ lang: zh-CN
 - [Neutron torpedo](https://osu.ppy.sh/users/24657559) (2023/7/?)
 - [h i b i k i](https://osu.ppy.sh/users/16604940) (2023/8/22)
 - [232333](https://osu.ppy.sh/users/7945343) (2023/8/24)
-- [Marisaya](https://osu.ppy.sh/users/13354073) (2023/9/09)
-- [red__pig](https://osu.ppy.sh/users/15603359) (2023/10/02)
+- [QiCaiLieMaxMox](https://osu.ppy.sh/users/7990368) (2023/9/4)
+- [Marisaya](https://osu.ppy.sh/users/13354073) (2023/9/9)
+- [Ninyaya](https://osu.ppy.sh/users/13198369) (2023/9/22)
+- [Apeuriox](https://osu.ppy.sh/users/11232623) (2023/9/23)
+- [nasucase](https://osu.ppy.sh/users/29046592/osu) (2023/09/23)
+- [red__pig](https://osu.ppy.sh/users/15603359) (2023/10/2)
 - [sion22](https://osu.ppy.sh/users/30137844) (2023/10/21)
 
 ## 出群后表现优异
