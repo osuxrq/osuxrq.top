@@ -26,6 +26,7 @@ lang: zh-CN
 - [Apeuriox](https://osu.ppy.sh/users/11232623) (2023/9/23)
 - [nasucase](https://osu.ppy.sh/users/29046592/osu) (2023/09/23)
 - [red__pig](https://osu.ppy.sh/users/15603359) (2023/10/2)
+- [Sylvester1](https://osu.ppy.sh/users/25454161) (2023/10/13)
 - [sion22](https://osu.ppy.sh/users/30137844) (2023/10/21)
 
 ## 出群后表现优异
