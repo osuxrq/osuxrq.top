@@ -66,6 +66,7 @@ lang: zh-CN
 		- 12 月集锦 - [BV1Qb411S7qs](https://www.bilibili.com/video/BV1Qb411S7qs)
 		- 10 月集锦 - [BV16b411w7rp](https://www.bilibili.com/video/BV16b411w7rp)
 - ### 其他
+	- osu! 超星群10月集锦 (2023-11-15) [BV1nw411N7gb]https://www.bilibili.com/video/BV1nw411N7gb
 	- osu! 超星群第二期集锦 (2022-06-08) - [BV17A4y1R7xi](https://www.bilibili.com/video/BV17A4y1R7xi)
 
 
