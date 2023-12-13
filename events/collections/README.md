@@ -10,8 +10,11 @@ lang: zh-CN
 <!-- 新的放上面 -->
 
 - ### osu! 新人群
+	- **2024 年**
+ 		- 1 - 3 月集锦[暂未发布]
 	- **2023 年**
- 		- 7 - 9 月集锦 - [BV15j411t7Us](https://www.bilibili.com/video/BV15j411t7Us)
+		- 10 - 12 月集锦 - [BV1aC4y197Us](https://www.bilibili.com/video/BV1aC4y197Us)
+   		- 7 - 9 月集锦 - [BV15j411t7Us](https://www.bilibili.com/video/BV15j411t7Us)
  		- 4 - 6 月集锦 - [BV1Cg4y1w7J4](https://www.bilibili.com/video/BV1Cg4y1w7J4) 	
 		- 1 - 3 月集锦 - [BV1sk4y1i7hi](https://www.bilibili.com/video/BV1sk4y1i7hi)	
 	- **2022 年**
