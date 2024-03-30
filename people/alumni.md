@@ -2,6 +2,8 @@
 title: 名人堂
 lang: zh-CN
 ---
+<!-- markdownlint-disable MD033 MD025 -->
+
 # 名人堂
 
 ## 高阶群达到出群条件
@@ -54,13 +56,10 @@ lang: zh-CN
 - [biscuitkey](https://osu.ppy.sh/users/29918427) (2024/3/24)
 - [wzr](https://osu.ppy.sh/users/2213247) (2024/3/24)
 - [TakinaInoue_](https://osu.ppy.sh/users/14244143) (2024/3/24)
+- [My Angel Pouxba](https://osu.ppy.sh/users/3046750) (2024/3/29)
 
 </details>
 
-
-## 出群后表现优异
-
-- [lolol233](https://osu.ppy.sh/users/11375105)：参与 OWC 选拔赛
 ## 做出卓越贡献
 
 - [\- E C \-](https://osu.ppy.sh/users/13552636)：制作集锦
