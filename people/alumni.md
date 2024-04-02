@@ -60,6 +60,10 @@ lang: zh-CN
 
 </details>
 
+---
+
+**名人堂更新不一定及时，若发现自己的 ID 长期没有被记录，请点击[**这里**](https://docs.qq.com/form/page/DUnV4TlRPUUNTQ2FO)填写登记表。**
+
 ## 做出卓越贡献
 
 - [\- E C \-](https://osu.ppy.sh/users/13552636)：制作集锦
