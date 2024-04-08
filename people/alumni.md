@@ -35,6 +35,8 @@ lang: zh-CN
 - [red__pig](https://osu.ppy.sh/users/15603359) (2023/10/2)
 - [Sylvester1](https://osu.ppy.sh/users/25454161) (2023/10/13)
 - [sion22](https://osu.ppy.sh/users/30137844) (2023/10/21)
+- [Kuaikuai27](https://osu.ppy.sh/users/11444694) (2023/11/22)
+- [shigure_rino](https://osu.ppy.sh/users/30137844) (2023/12/27)
 
 </details>
 
@@ -57,6 +59,8 @@ lang: zh-CN
 - [wzr](https://osu.ppy.sh/users/2213247) (2024/3/24)
 - [TakinaInoue_](https://osu.ppy.sh/users/14244143) (2024/3/24)
 - [My Angel Pouxba](https://osu.ppy.sh/users/3046750) (2024/3/29)
+- [-Rosmontis-](https://osu.ppy.sh/users/34323353) (2024/4/3)
+- [cloudland](https://osu.ppy.sh/users/33634210) (2024/4/3)
 
 </details>
 
