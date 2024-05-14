@@ -62,7 +62,7 @@ lang: zh-CN
 | 歪梨<br />whir | Hiiragi Kagami | 178039743 | 指导 | 提供OWC观赛解说、<br />一对一指导、<br />记录新人群历史 |
 | 吸歪<br />CY | CYCLC | 630060047 | 指导 | - |
 | inter | -Interesting- | 405622418 | 维护 | 维护国内第一个 osubot：interbot |
-| 果子 | Guozi on Osu | 2624161473 | 指导 | 提供 EWC 等比赛指导、<br />维护果果猫（代理猫猫 Bot） |
+| 果子 | Guozi on Osu | 2624161473 | 维护 | 曾提供 EWC 等比赛指导、<br />现主要维护果果猫（猫猫 Bot 代理） |
 | 铁男 | IronWitness | 1208604740 | 审查 | 专门管那些不听话的群友 |
 | 撒由里 | Sayori_yui | 2429299722 | 策划 | 群赛选图、导播 |
 | 幻影 | huanying | 1904625512 | 策划 | 制作集锦视频、<br />维护消防栓 Bot、<br />群赛策划和导播 |
@@ -70,14 +70,18 @@ lang: zh-CN
 | MM | Mimosa M | 3438313440 | 审查 | - |
 | 幽幽子 | SIyuyuko | 3228981717 | 审查 | 制作多人光标同屏视频 |
 | 暮色 | muse ass<br />m u s e | 1528769425 | 指导 | - |
-| 彩虹 | - Rainbow - | 1242400248 | 审查 | 高阶群Chart (HOC) 第二任主办 |
+| 彩虹 | - Rainbow - | 1242400248 | 审查 | 高阶群 Chart (HOC) 第二任主办 |
 | 茉莉 | Molli | 2733494248 | 策划 | 策划进阶群活动 |
 | n100 | n0000000000o | 1120180945 | 审查 | - |
 | 雨<ruby>沫<rp>(</rp><rt>mò</rt><rp>)</rp></ruby> | Celia-Claire | 645964361 | 策划 | 制作集锦视频 |
-| VV | VialVistas | 2733450423 | 策划 | - |
 | 春晚 | -Spring Night- | 365246692 | 维护 | YumuBot 主维护 |
 | 仙贝 | Senbe1 | 1318654060 | 策划 | - |
 | 爬哥 | lolol727<br />UselessPlayer<br />Kazumi Pager | 1172482284 | 策划 | 举办进阶群群赛，<br />高阶群 Chart (HOC) 第一任主办 |
+| 露娜 | Sakura Luna | 411843675 | 策划 | - |
+| 小熊饼干 | xxbg | 1318654060 | 审查 | - |
+| Dragon-Fox | Dragon-Fox | 524986802 | 审查 | - |
+| YRScarlet | YRScarlet | 1584775323 | 指导 | - |
+| Summ3rR41n | Summ3rR41n | 2199188467 | 策划 | - |
 
 ## 离职或不活跃管理
 
@@ -86,7 +90,7 @@ lang: zh-CN
 | 桃乐丝 | taolex | 2639140005 | - | 管理新人群管理组 |
 | 844 | Hidden me | 431600414 | 指导 | HD 模组顾问 |
 | 斑斑 | heisibian | 2541721178 | 指导 | - |
-| - | Rolling Girl | 1597273233 | 指导 | - |
+| Rolling Girl | Rolling Girl | 1597273233 | 指导 | - |
 | 阿卡雷 | Arcareh | 510807657 | 指导 | - |
 | 3L | lonelyling | 517339748 | 指导 | - |
 | A9 | Archer9 | 97512825 | 策划 | 参与进阶群群赛选图工作 |
@@ -100,6 +104,7 @@ lang: zh-CN
 | 初 | pr1mary | 2897010516 | 指导 | - |
 | 小四 | -Hermit- | 1985958893 | 指导 | - |
 | 白季 | White_Season | 447503971 | 指导 | - |
-| - | Morika | 2636027237 | 指导 | - |
+| 莫莉卡 | Morika | 2636027237 | 指导 | - |
 | 小A | Aokreti | 3251924929 | 指导 | - |
+| VV | VialVistas | 2733450423 | 策划 | - |
 
