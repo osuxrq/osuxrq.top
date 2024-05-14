@@ -28,7 +28,7 @@ lang: zh-CN
 
 - **2023 年 5 月** - 新人群悬赏/同屏活动 - Morika
   - 3918238, PIKASONIC & Tatsunoshin - Lockdown (feat. NEONA)[fooders x Blacky's Insane]
-  - 限制：PP < 2800，QQ 在新人群内，使用 Mod 组合：Nomod、HD、HR、HDHR
+  - 限制：PP < 3000，QQ 在新人群内，使用 Mod 组合：Nomod、HD、HR、HDHR
   - 方式：ScoreV1 计分，提交回放文件参与
   - 奖励：分数最高的玩家获得 1 个月支持者，超限出群不影响奖励发放
 
