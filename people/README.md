@@ -4,7 +4,7 @@ lang: zh-CN
 ---
 # 新人群管理组列表
 
-osu! 新人群系列现有管理 **38** 人，活跃 **20** 人，群主 **5** 人，活跃 **2** 人。
+osu! 新人群系列现有管理 **37** 人，活跃 **20** 人，群主 **5** 人，活跃 **2** 人。
 
 ## 群主
 
@@ -18,7 +18,7 @@ osu! 新人群系列现有管理 **38** 人，活跃 **20** 人，群主 **5** �
 
 关于管理的联系方式以及历史信息，请参见：[新人群管理列表](administrators.md)
 
-*备注：加粗的管理是该群组内该管理小组的组长，在关键时刻需要起到**带头作用**（至少要能找到人）。*
+*备注：加粗的管理是该群组内该管理小组的组长，在关键时刻需要起到**带头作用**（至少要能找到人）。加斜的管理是最近一次入群或上任的管理。*
 
 | 群组和管理小组 | 策划 | 指导 | 审查 | 维护 |
 | :-: | :-: | :-: | :-: | :-: |
@@ -26,15 +26,19 @@ osu! 新人群系列现有管理 **38** 人，活跃 **20** 人，群主 **5** �
 |  | huanying | Firika | Mimosa M | bleatingsheep |
 |  | Molli | Hiiragi Kagami | n0000000000o |  |
 |  | Sayori_yui | osu happy | SIyuyuko |  |
+| | *Sakura Luna* | m u s e | *xxbg* | |
+| | *Summ3rR41n* |  | *Dragon-Fox* | |
 | | | | | |
-| 进阶群 | **VialVistas** | **Hiiragi Kagami** | **SIyuyuko** | **bleatingsheep** |
-|  | Senbe1 | Firika | IronWitness | Interesting |
-| | Molli | m u s e | Mimosa M | \-Spring Night\- |
+| 进阶群 | **Senbe1** | **Hiiragi Kagami** | **SIyuyuko** | **bleatingsheep** |
+|  | Molli | Firika | IronWitness | Interesting |
+| | *Sakura Luna* | m u s e | Mimosa M | \-Spring Night\- |
+| | | *YRScarlet* | *xxbg* | |
 | | | | | |
 | 高阶群 | **UselessPlayer** | **Molli** | **Mimosa M** | **\-Spring Night\-** |
-| | VialVistas | Guozi on Osu | IronWitness | Interesting |
-| | \- Rainbow \- | Firika | | bleatingsheep |
-| |  | | | |
+| | VialVistas | Firika | IronWitness | Interesting |
+| |  |  | | bleatingsheep |
+| |  | | | Guozi on Osu |
+| | | | | |
 
 以下是一些特殊的职责划分：
 
