@@ -79,6 +79,7 @@ lang: zh-CN
 
 ### 2024年
 
+- osu! 新人系列群 2024 年 5 月同屏 - [BV1TT421y7g3](https://www.bilibili.com/video/BV1TT421y7g3)
 - osu! 新人群 2024 年 3 月同屏 - [BV1Mz421o7Z3](https://www.bilibili.com/video/BV1Mz421o7Z3)
 - osu! 进阶群 2024 年 3 月同屏 - [BV1Sx4y1273P](https://www.bilibili.com/video/BV1Sx4y1273P)
 
