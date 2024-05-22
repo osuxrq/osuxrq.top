@@ -62,6 +62,7 @@ lang: zh-CN
 - [-Rosmontis-](https://osu.ppy.sh/users/34323353) (2024/4/3)
 - [cloudland](https://osu.ppy.sh/users/33634210) (2024/4/3)
 - [ATRI514](https://osu.ppy.sh/users/16426513) (2024/4/29)
+- [Yui Nya](https://osu.ppy.sh/users/14377425) (2024/5/18)
 
 </details>
 
