@@ -22,32 +22,49 @@ export default defineUserConfig({
                 navbar: [
                     // 导航栏
                     "/introduction/how-to-join.md",
+                    // 下面是永远不会匹配任何东西的 Regex
+                    // 如果你希望在加群页面也高亮“介绍”的话，
+                    // 就把加群的 activeMatch 设置为这个 Regex
+                    // 以避免匹配到
+                    // ^(?!x)x
                     {
                         text: "介绍",
-                        link: "/introduction/"
+                        link: "/introduction/",
+                        activeMatch: "^/introduction/(?!how-to-join)",
                     },
                     {
                         text: "管理",
-                        link: "/people/"
+                        children: [
+                            {
+                                text: "管理组",
+                                link: "/people/",
+                                activeMatch: "^/people/$",
+                            },
+                            "/people/owner.md",
+                            "/people/administrators.md",
+                            "/people/alumni.md",
+                        ]
                     },
                     {
                         text: '活动',
                         children: [
-                            "/events/README.md",
                             {
-                                text: "活动列表",
-                                children: [
-                                    "/events/matches/",
-                                    "/events/charts/",
-                                    "/events/collections/"
-                                ]
-                            }
+                                text: "活动",
+                                link: "/events/README.md",
+                                activeMatch: "^/events/$",
+                            },
+                            "/events/matches/",
+                            "/events/charts/",
+                            "/events/collections/"
                         ]
                     },
                     {
                         text: '更多',
                         children: [
-                            "/misc/bots/",
+                            {
+                                text: "机器人",
+                                link: "/misc/bots/"
+                            },
                             {
                                 text: "新人群的回忆",
                                 children: [
@@ -86,16 +103,33 @@ export default defineUserConfig({
                             text: "群赛",
                             children: [
                                 "/events/matches/README.md",
+                                "/events/matches/2.md",
+                                "/events/matches/20.md",
+                                "/events/matches/21.md",
+                                "/events/matches/22.md",
+                                "/events/matches/23.md",
                                 "/events/matches/24.md",
                                 "/events/matches/25.md",
                                 "/events/matches/26.md",
                                 "/events/matches/27.md",
+                                "/events/matches/28.md",
+                                "/events/matches/29.md",
+                                "/events/matches/30.md",
+                                "/events/matches/a1.md",
+                                "/events/matches/a2.md",
+                                "/events/matches/y1.md",
+                                "/events/matches/y2.md",
+                                "/events/matches/y3.md",
+                                "/events/matches/y4.md",
                             ],
                         },
                         {
                             text: "悬赏",
                             children: [
                                 "/events/charts/README.md",
+                                "/events/charts/h2303.md",
+                                "/events/charts/h2304.md",
+                                "/events/charts/h2305.md",
                             ],
                         },
                         {

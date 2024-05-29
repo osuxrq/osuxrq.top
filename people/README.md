@@ -4,70 +4,65 @@ lang: zh-CN
 ---
 # 新人群管理组列表
 
-osu! 新人群系列现有管理 **32** 人，活跃 **20** 人，群主 **5** 人，活跃 **1** 人。
+osu! 新人群系列现有管理 **37** 人，活跃 **20** 人，群主 **5** 人，活跃 **2** 人。
 
 ## 群主
 
-参见：[新人群群主列表](owner.md)
+关于群主的联系方式以及历史信息，请参见：[新人群群主列表](owner.md)
 
-- **新人群、进阶群、高阶群群主**：[Muziyami](https://osu.ppy.sh/u/Muziyami)
+- **新人群、进阶群、高阶群群主**：[na-gi](https://osu.ppy.sh/u/na-gi)
 - **超星群群主**：[zfxggg](https://osu.ppy.sh/u/zfxggg)
 - **旧进阶群群主**：[C8N16O32](https://osu.ppy.sh/u/C8N16O32)
 
 ## 管理
 
-参见：[新人群管理列表](administrators.md)
+关于管理的联系方式以及历史信息，请参见：[新人群管理列表](administrators.md)
 
-<!-- 这里是按照名字字母顺序排的 -->
+*备注：加粗的管理是该群组内该管理小组的组长，在关键时刻需要起到**带头作用**（至少要能找到人）。加斜的管理是最近一次入群或上任的管理。*
 
-- **新人群管理**：
-  - \- Rainbow \-
-  - \-Hermit\-
-  - \-Inui Sana\-
-  - Firika
-  - Guozi on Osu
-  - Hiiragi Kagami
-  - IronWitness
-  - lolol727
-  - Mimosa M
-  - Molli
-  - Morika
-  - muse ass
-  - na-gi
-  - osu happy
-  - Sayori\_yui
-  - SIyuyuko
-- **进阶群管理**：
-  - \-Hermit\-
-  - Firika
-  - Guozi on Osu
-  - Hiiragi Kagami
-  - IronWitness
-  - lolol727
-  - muse ass
-  - Mimosa M
-  - Morika
-  - na-gi
-  - Sayori_yui
-  - SIyuyuko
+| 群组和管理小组 | 策划 | 指导 | 审查 | 维护 |
+| :-: | :-: | :-: | :-: | :-: |
+| 新人群 | **Celia-Claire** | **\-Inui Sana\-** | **IronWitness** | **Interesting** |
+|  | huanying | Firika | Mimosa M | bleatingsheep |
+|  | Molli | Hiiragi Kagami | n0000000000o |  |
+|  | Sayori_yui | osu happy | SIyuyuko |  |
+| | *Sakura Luna* | m u s e | *xxbg* | |
+| | *Summ3rR41n* |  | *Dragon-Fox* | |
+| | | | | |
+| 进阶群 | **Senbe1** | **Hiiragi Kagami** | **SIyuyuko** | **bleatingsheep** |
+|  | Molli | Firika | IronWitness | Interesting |
+| | *Sakura Luna* | m u s e | Mimosa M | \-Spring Night\- |
+| | | *YRScarlet* | *xxbg* | |
+| | | | | |
+| 高阶群 | **UselessPlayer** | **Molli** | **Mimosa M** | **\-Spring Night\-** |
+| | VialVistas | Firika | IronWitness | Interesting |
+| |  |  | | bleatingsheep |
+| |  | | | Guozi on Osu |
+| | | | | |
 
-- **高阶群管理**：
-  - \- Rainbow \-
-  - Guozi on Osu
-  - Hiiragi Kagami
-  - IronWitness
-  - lolol727
-  - Mimosa M
-  - Sayori_yui
-  - SIyuyuko
+以下是一些特殊的职责划分：
+
+- 新人群：
+  - 新人群群赛结果公告编辑、奖励发放、集锦制作、消防栓账号维护：huanying
+  - 新人群同屏活动：SIyuyuko
+- 进阶群：
+  - 进阶群头衔图、进阶群分段比赛宣传：VialVistas
+  - 进阶群同屏活动：SIyuyuko
+- 高阶群：
+  - 高阶群月赛 (Chart、HOC) 主办：UselessPlayer、\- Rainbow \-
+  - 高阶群月赛 (Chart、HOC) 选图者：Molli
+  - 高阶群分段比赛宣传：VialVistas
+
 
 
 ## 名人堂
 
 参见：[名人堂](alumni.md)
 
-- 表现优异的群友：
-  - lolol233：参与 OWC 选拔赛
-- 做出卓越贡献的群友：
-  - \- E C \-：曾制作集锦
-  - Vup：曾作为猫猫机器人的代行账号
+**名人堂**是用来展示新人群内较优秀玩家的一个平台。
+
+注意，名人堂内展示的玩家大多数几乎没有参与新人群管理工作。
+
+## 备注
+
+严格意义上来说，幻影并不属于管理组，但由于在新人群管理工作中，他承担了和**策划管理**、**维护管理**同等的职责，还是将他纳入其中。
