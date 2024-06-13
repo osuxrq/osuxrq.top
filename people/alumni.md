@@ -10,8 +10,7 @@ lang: zh-CN
 
 <br/>
 
-<details>
-<summary> 2023 年</summary>
+::: details 2023 年
 
 - [ColdSnowFox](https://osu.ppy.sh/users/19890921) (2023/3/9)
 - [-Spring Night-](https://osu.ppy.sh/users/17064371) (2023/3/21)
@@ -38,12 +37,9 @@ lang: zh-CN
 - [Kuaikuai27](https://osu.ppy.sh/users/11444694) (2023/11/22)
 - [shigure_rino](https://osu.ppy.sh/users/30137844) (2023/12/27)
 
-</details>
+:::
 
-<br/>
-
-<details>
-<summary> 2024 年</summary>
+::: details 2024 年
 
 - [ShandenTeio](https://osu.ppy.sh/users/25776202) (2024/2/?)
 - [misaki daisuki](https://osu.ppy.sh/users/29037830) (2024/3/12)
@@ -63,12 +59,16 @@ lang: zh-CN
 - [cloudland](https://osu.ppy.sh/users/33634210) (2024/4/3)
 - [ATRI514](https://osu.ppy.sh/users/16426513) (2024/4/29)
 - [Yui Nya](https://osu.ppy.sh/users/14377425) (2024/5/18)
+- [swz_36](https://osu.ppy.sh/users/28931412) (2024/6/10)
+- [fuyukiS](https://osu.ppy.sh/users/32657919) (2024/6/11)
+- [neelamy](https://osu.ppy.sh/users/13114667) (2024/6/11)
+- [treeggjack](https://osu.ppy.sh/users/13893366) (2024/6/11)
 
-</details>
+:::
 
----
-
+::: tip
 **名人堂更新不一定及时，若发现自己的 ID 长期没有被记录，请点击[**这里**](https://docs.qq.com/form/page/DUnV4TlRPUUNTQ2FO)填写登记表。**
+:::
 
 ## 做出卓越贡献
 
