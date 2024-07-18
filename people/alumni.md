@@ -63,7 +63,10 @@ lang: zh-CN
 - [fuyukiS](https://osu.ppy.sh/users/32657919) (2024/6/11)
 - [neelamy](https://osu.ppy.sh/users/13114667) (2024/6/11)
 - [treeggjack](https://osu.ppy.sh/users/13893366) (2024/6/11)
-
+- [[SomaRia]](https://osu.ppy.sh/users/33249948) (2024/7/1)
+- [OSU_wuxin](https://osu.ppy.sh/users/19244792) (2024/7/13)
+- [[CamomileRc]](https://osu.ppy.sh/users/24262346) (2024/7/15)
+- [ShandenLunaire](https://osu.ppy.sh/users/13888511) (2024/7/15)
 :::
 
 ::: tip
