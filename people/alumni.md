@@ -41,6 +41,7 @@ lang: zh-CN
 
 ::: details 2024 年
 
+- [Sakura_Moyu](https://osu.ppy.sh/users/26093361) (2024/1/1)
 - [ShandenTeio](https://osu.ppy.sh/users/25776202) (2024/2/?)
 - [misaki daisuki](https://osu.ppy.sh/users/29037830) (2024/3/12)
 - [Silence_Suzuka_](https://osu.ppy.sh/users/32635915) (2024/3/22)
@@ -59,6 +60,8 @@ lang: zh-CN
 - [cloudland](https://osu.ppy.sh/users/33634210) (2024/4/3)
 - [ATRI514](https://osu.ppy.sh/users/16426513) (2024/4/29)
 - [Yui Nya](https://osu.ppy.sh/users/14377425) (2024/5/18)
+- [LegendS057](https://osu.ppy.sh/users/26643085) (2024/5/27)
+- [Ben Jiang](https://osu.ppy.sh/users/7983528) (2024/6/8)
 - [swz_36](https://osu.ppy.sh/users/28931412) (2024/6/10)
 - [fuyukiS](https://osu.ppy.sh/users/32657919) (2024/6/11)
 - [neelamy](https://osu.ppy.sh/users/13114667) (2024/6/11)
@@ -67,6 +70,14 @@ lang: zh-CN
 - [OSU_wuxin](https://osu.ppy.sh/users/19244792) (2024/7/13)
 - [[CamomileRc]](https://osu.ppy.sh/users/24262346) (2024/7/15)
 - [ShandenLunaire](https://osu.ppy.sh/users/13888511) (2024/7/15)
+- [FlyingTuna3](https://osu.ppy.sh/users/34035726) (2024/7/21)
+- [mzilingyin](https://osu.ppy.sh/users/25350648) (2024/7/21)
+- [kanade2102](https://osu.ppy.sh/users/32832797) (2024/7/21)
+- [My Angel Rita](https://osu.ppy.sh/users/16363890) (2024/7/21)
+- [Niumaokun](https://osu.ppy.sh/users/16227180) (2024/7/21)
+- [MyAngelMio_](https://osu.ppy.sh/users/17392497) (2024/7/21)
+- [zzxLLL](https://osu.ppy.sh/users/28393465) (2024/7/21)
+
 :::
 
 ::: tip
