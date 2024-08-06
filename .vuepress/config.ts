@@ -1,5 +1,6 @@
 import { defineUserConfig } from 'vuepress'
-import { defaultTheme } from 'vuepress'
+import { defaultTheme } from '@vuepress/theme-default'
+import { viteBundler } from '@vuepress/bundler-vite'
 
 export default defineUserConfig({
     head: [
@@ -179,4 +180,5 @@ export default defineUserConfig({
         docsRepo: 'osuxrq/osuxrq.top',
         docsBranch: 'main',
     }),
+    bundler: viteBundler(),
 })
