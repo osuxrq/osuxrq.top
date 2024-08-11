@@ -22,7 +22,7 @@
 
 脾气很好，但不是没有底线。如果有人给她看星星超过 5.7 的成绩图欺负她，她一定会排斥你。
 
-据小道消息，咕咕背后有一<ruby>位<rp>(</rp><rt>群</rt><rp>)</ruby>身份不明的表哥。当咕咕受欺负了，他通常会在阴影中将对方<ruby>解<rp>(</rp><rt>jiao</rt><rp>)</rp></ruby><ruby>决<rp>(</rp><rt>yu</rt><rp>)</rp></ruby>掉。
+据小道消息，咕咕背后有一<ruby>位<rp>(</rp><rt>群</rt><rp>)</rp></ruby>身份不明的表哥。当咕咕受欺负了，他通常会在阴影中将对方<ruby>解<rp>(</rp><rt>jiao</rt><rp>)</rp></ruby><ruby>决<rp>(</rp><rt>yu</rt><rp>)</rp></ruby>掉。
 
 ## 体质
 
