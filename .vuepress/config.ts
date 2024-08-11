@@ -67,6 +67,10 @@ export default defineUserConfig({
                                 link: "/misc/bots/"
                             },
                             {
+                                text: "吉祥物",
+                                link: "/misc/mascots/"
+                            },
+                            {
                                 text: "新人群的回忆",
                                 children: [
                                     {
@@ -74,7 +78,7 @@ export default defineUserConfig({
                                         link: "https://meme.osuxrq.top/"
                                     },
                                     {
-                                        text: "回忆指南",
+                                        text: "添加回忆",
                                         link: "/misc/meme/"
                                     },
                                 ]
