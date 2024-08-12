@@ -42,6 +42,7 @@ lang: zh-CN
 ::: details 2024 年
 
 - [Sakura_Moyu](https://osu.ppy.sh/users/26093361) (2024/1/1)
+- [ShandenYamada](https://osu.ppy.sh/users/13413713) (2024/1/?)
 - [ShandenTeio](https://osu.ppy.sh/users/25776202) (2024/2/?)
 - [misaki daisuki](https://osu.ppy.sh/users/29037830) (2024/3/12)
 - [Silence_Suzuka_](https://osu.ppy.sh/users/32635915) (2024/3/22)
