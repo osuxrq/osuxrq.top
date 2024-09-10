@@ -31,10 +31,12 @@ lang: zh-CN
 - [Ninyaya](https://osu.ppy.sh/users/13198369) (2023/9/22)
 - [Apeuriox](https://osu.ppy.sh/users/11232623) (2023/9/23)
 - [nasucase](https://osu.ppy.sh/users/29046592/osu) (2023/9/23)
+- [BurgerKing](https://osu.ppy.sh/users/13013147) (2023/9/?)
 - [red__pig](https://osu.ppy.sh/users/15603359) (2023/10/2)
 - [Sylvester1](https://osu.ppy.sh/users/25454161) (2023/10/13)
 - [sion22](https://osu.ppy.sh/users/30137844) (2023/10/21)
 - [Kuaikuai27](https://osu.ppy.sh/users/11444694) (2023/11/22)
+- [-Mahiro](https://osu.ppy.sh/users/24387999) (2023/12/10)
 - [shigure_rino](https://osu.ppy.sh/users/30137844) (2023/12/27)
 
 :::
@@ -78,6 +80,8 @@ lang: zh-CN
 - [Niumaokun](https://osu.ppy.sh/users/16227180) (2024/7/21)
 - [MyAngelMio_](https://osu.ppy.sh/users/17392497) (2024/7/21)
 - [zzxLLL](https://osu.ppy.sh/users/28393465) (2024/7/21)
+- [My Angel Bronya](https://osu.ppy.sh/users/17857203) (2024/8/31)
+- [AltoClef](https://osu.ppy.sh/users/27673654) (2024/9/2)
 
 :::
 
