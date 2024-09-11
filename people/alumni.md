@@ -80,6 +80,12 @@ lang: zh-CN
 - [Niumaokun](https://osu.ppy.sh/users/16227180) (2024/7/21)
 - [MyAngelMio_](https://osu.ppy.sh/users/17392497) (2024/7/21)
 - [zzxLLL](https://osu.ppy.sh/users/28393465) (2024/7/21)
+- [RieKKA](https://osu.ppy.sh/users/16932616) (2024/8/30)
+- [Innocence_](https://osu.ppy.sh/users/17945067) (2024/8/30)
+- [skzynic](https://osu.ppy.sh/users/13825455) (2024/8/30)
+- [dynamix player](https://osu.ppy.sh/users/12438405) (2024/8/30)
+- [Mouse1337](https://osu.ppy.sh/users/12411708) (2024/8/30)
+- [7enf](https://osu.ppy.sh/users/28600386) (2024/8/30)
 - [My Angel Bronya](https://osu.ppy.sh/users/17857203) (2024/8/31)
 - [AltoClef](https://osu.ppy.sh/users/27673654) (2024/9/2)
 
