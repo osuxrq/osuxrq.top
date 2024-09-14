@@ -49,7 +49,7 @@ jobs:
       contents: write
     steps:
       - name: Download artifact from build job
-        uses: actions/download-artifact@v2
+        uses: actions/download-artifact@v3
         with:
           name: vuepress-dist
           path: ./.vuepress/dist
