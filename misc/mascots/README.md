@@ -51,3 +51,5 @@
 ## 画廊
 
 ![](./gugu2.jpg)
+
+![](./gugu-manga.jpg)
