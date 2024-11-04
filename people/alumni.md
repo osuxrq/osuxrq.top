@@ -37,7 +37,7 @@ lang: zh-CN
 - [sion22](https://osu.ppy.sh/users/30137844) (2023/10/21)
 - [Kuaikuai27](https://osu.ppy.sh/users/11444694) (2023/11/22)
 - [-Mahiro](https://osu.ppy.sh/users/24387999) (2023/12/10)
-- [shigure_rino](https://osu.ppy.sh/users/30137844) (2023/12/27)
+- [shigure_rino](https://osu.ppy.sh/users/26009615) (2023/12/27)
 
 :::
 
