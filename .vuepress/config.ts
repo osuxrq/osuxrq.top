@@ -18,8 +18,9 @@ export default defineUserConfig({
             description: '一个为新人而生的群聊团体。',
         }
     },
+    port:5173,
     alias: {
-        "@AlumniList.vue": path.resolve(__dirname, "./components/AlumniList.vue"),
+        "@": path.resolve(__dirname, "./components/"),
     },
     theme: defaultTheme({
         locales: {

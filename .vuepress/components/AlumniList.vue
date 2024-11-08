@@ -1,24 +1,49 @@
 <script setup>
-import { ref } from 'vue'
+import {ref} from 'vue'
+const url = 'https://xrq.365246692.xyz:40002/bot/alumni'
+/**
+ * 加载列表
+ * @param {string} year
+ */
+function loadList(year) {
+  if (userList.value[year].length > 0) return
+  loadingList.value = [
+      ...loadingList.value,
+      year,
+  ]
+  fetch(`${url}?year=${year}`)
+      .then(data => data.json())
+      .then(data => {
+        userList.value = {
+          ...userList.value,
+          [year]: data,
+        }
+        loadingList.value = loadingList.value.filter(n => n !== year)
+      }).catch(e => {
+        console.error(e)
+        errorText.value = '浏览器版本过低, 无法展示'
+      })
+}
 
-fetch("https://xrq.365246692.xyz:40002/bot/alumni").then(res => {
-  return res.json()
-}).then(data => {
-  userList.value = data.reduce((all, item) => {
-    let key = item.date[0]
-    if (!all[key]) {
-      all[key] = []
+function loadYear() {
+  errorText.value = 'loading...'
+  fetch(url).then(res => {
+    return res.json()
+  }).then(data => {
+    const obj = {}
+    for (let n of data) {
+      obj[n] = []
     }
-    all[key].push(item)
-    return all
-  }, {})
-  errorText.value = ''
-}).catch(e => {
-  console.error(e)
-  errorText.value = e
-})
+    userList.value = obj
+    errorText.value = ''
+  }).catch(e => {
+    console.error(e)
+    errorText.value = '浏览器版本过低, 无法展示'
+  })
+}
 
 const errorText = ref('loading...')
+const loadingList = ref([])
 const userList = ref({})
 
 /**
@@ -28,18 +53,23 @@ const userList = ref({})
 function getTime(user) {
   return `(${user.date[0]}/${user.date[1]}/${user.date[2]})`
 }
+
+loadYear()
 </script>
 
 <template>
   <div v-if="errorText">
-    {{ errorText }}
+    <span class="error-text">{{ errorText }}</span>
+    <br>
+    <button class="reload" @click="loadYear">重新加载</button>
   </div>
-  <details v-if="!errorText" v-for="[year, list] in Object.entries(userList)" class="hint-container details">
-    <summary>
+  <details v-if="!errorText" v-for="[year, list] in Object.entries(userList)" class="details" :ref="year">
+    <summary @click="loadList(year)">
       {{ year }} 年
     </summary>
+    <span v-if="loadingList.indexOf(year) > 0">加载中...</span>
     <ul>
-      <li v-for="user in list">
+      <li v-for="user in list" :key="user.uid">
         <a :href="user.url" target="_blank" rel="noopener noreferrer">{{ user.name }}</a>
         {{ getTime(user) }}
       </li>
@@ -47,6 +77,44 @@ function getTime(user) {
   </details>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
+.details {
+  margin: 2rem 1rem 1rem 1rem;
+  summary {
+    background-color: var(--c-tip-bg);
+    height: 1.5rem;
+    margin-inline-start: 1rem;
+    list-style-position: outside;
 
+    &:hover {
+      color: var(--c-brand);
+      cursor: pointer;
+    }
+  }
+  ul {
+    background-color: var(--c-bg-darker);
+  }
+
+  transition: transform 5s;
+}
+
+.error-text {
+  display: block;
+  margin-top: 0.8rem;
+  font-size: 1.2rem;
+  color: red;
+}
+.reload {
+  margin: .5rem 0 0;
+  font-size: 1.2rem;
+  color: var(--c-brand);
+  background: var(--c-bg);
+  border: 0.1rem solid var(--c-brand);
+  transition-duration: 0.2s;
+  &:hover {
+    color: var(--c-bg);
+    background: var(--c-brand);
+    cursor: pointer;
+  }
+}
 </style>
