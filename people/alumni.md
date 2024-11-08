@@ -23,5 +23,5 @@ lang: zh-CN
 - [PercyDan](https://osu.ppy.sh/users/17268434)：制作集锦
 - [Vup](https://osu.ppy.sh/users/19755783)：作为猫猫机器人的代行账号
 <script setup>
-import AlumniList from '/.vuepress/components/AlumniList.vue'
+import AlumniList from '@AlumniList.vue'
 </script>
