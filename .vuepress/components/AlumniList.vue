@@ -63,7 +63,7 @@ loadYear()
     <br>
     <button class="reload" @click="loadYear">重新加载</button>
   </div>
-  <details v-if="!errorText" v-for="[year, list] in Object.entries(userList)" class="details" :ref="year">
+  <details v-if="!errorText" v-for="[year, list] in Object.entries(userList)" class="custom-container details" :ref="year">
     <summary @click="loadList(year)">
       {{ year }} 年
     </summary>
@@ -78,26 +78,6 @@ loadYear()
 </template>
 
 <style scoped lang="scss">
-.details {
-  margin: 2rem 1rem 1rem 1rem;
-  summary {
-    background-color: var(--c-tip-bg);
-    height: 1.5rem;
-    margin-inline-start: 1rem;
-    list-style-position: outside;
-
-    &:hover {
-      color: var(--c-brand);
-      cursor: pointer;
-    }
-  }
-  ul {
-    background-color: var(--c-bg-darker);
-  }
-
-  transition: transform 5s;
-}
-
 .error-text {
   display: block;
   margin-top: 0.8rem;
