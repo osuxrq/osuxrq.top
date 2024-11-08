@@ -1,6 +1,7 @@
 import { defineUserConfig } from 'vuepress'
 import { defaultTheme } from '@vuepress/theme-default'
 import { viteBundler } from '@vuepress/bundler-vite'
+import * as path from "node:path";
 
 export default defineUserConfig({
     head: [
@@ -16,6 +17,9 @@ export default defineUserConfig({
             title: 'osu! 新人群',
             description: '一个为新人而生的群聊团体。',
         }
+    },
+    alias: {
+        "@AlumniList.vue": path.resolve(__dirname, "./components/AlumniList.vue"),
     },
     theme: defaultTheme({
         locales: {
