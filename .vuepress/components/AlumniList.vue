@@ -1,5 +1,5 @@
 <template>
-  <div class="alumnlist">
+  <div class="alumni-list">
     <div>
       <div v-for="(list, year) in userList" :key="year" class="panel">
         <div v-if="errorText" class="single-year-panel">
@@ -19,17 +19,11 @@
               class="panel-content"
               :style="{ maxHeight: getMaxHeight(year) }"
             >
-              <ul>
-                <li v-for="user in list" :key="user.uid">
-                  <a
-                    :href="user.url"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >{{ user.name }}</a
-                  >
-                  <span>{{ getTime(user) }}</span>
-                </li>
-              </ul>
+              <Card :users="list">
+                <template #extra="{ user }">
+                  <span class="user-date">{{ getTime(user) }}</span>
+                </template>
+              </Card>
             </div>
           </transition>
         </div>
@@ -40,6 +34,7 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
+import Card from "./Card.vue";
 
 interface User {
   uid: string;
@@ -53,7 +48,6 @@ const errorText = ref("loading...");
 const userList = ref<{ [key: string]: User[] }>({});
 const loadingList = ref<number[]>([]);
 const activeYear = ref(null);
-const isActive = ref(false);
 
 // 加载所有年份数据
 const loadYear = async () => {
@@ -160,26 +154,19 @@ onMounted(() => {
   transition: max-height 0.5s ease-in-out; /* 过渡动画 */
 }
 
-.content.expanded {
-  max-height: 1000px;
-  transition: max-height 0.5s ease-in-out;
-}
-
-.panel-content ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.panel-content li {
-  margin-bottom: 0.5rem;
+.user-date {
+  font-size: 0.8rem;
+  color: var(--c-text-lighter);
 }
 
 /* 过渡效果 */
-.slide-fade-enter-active, .slide-fade-leave-active {
+.slide-fade-enter-active,
+.slide-fade-leave-active {
   transition: max-height 0.5s ease-in-out;
 }
 
-.slide-fade-enter, .slide-fade-leave-to {
+.slide-fade-enter,
+.slide-fade-leave-to {
   max-height: 0;
 }
 </style>
