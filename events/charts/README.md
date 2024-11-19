@@ -52,7 +52,7 @@ lang: zh-CN
   - 3607430, 優里 - 飛行船 (alevi) [Skyline]
   - 方式：ScoreV1 计分
   - 条件：达成以下任意一条目标
-    - Mod：NM/HD，FC，ACC >= 99% 
+    - Mod：NM/HD，FC，ACC >= 99%
     - Mod：HR/HDHR，FC，ACC >= 97%
   - 奖励：1 个月支持者
 - **2023 年 3 月** - 跳王之王挑战 - YRScarlet
@@ -95,4 +95,3 @@ lang: zh-CN
     - 771858, 天音 - TWEEKER (TicClick) [Lunatic]
       - 条件：Pass，ACC >= 75
     - 任意两张五星图，评级 S，FC
-

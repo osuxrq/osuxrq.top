@@ -12,4 +12,4 @@
 
 示例：
 
-![](./example-2.75x.jpg)
+![Example Image](/images/post-memory-example-2.75x.jpg)

@@ -1,4 +1,33 @@
-node_modules
-.temp
-.cache
-.vuepress/dist
+# .gitignore
+node_modules/
+.temp/
+.cache/
+.vuepress/dist/
+
+# Editor directories and files
+.idea
+.vscode/*
+!.vscode/extensions.json
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 构建文件
+dist/
+temp/
+cache/
+
+# 本地配置文件
+.env.local
+.env.*.local
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

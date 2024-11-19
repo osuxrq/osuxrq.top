@@ -14,27 +14,40 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pages: write
+      id-token: write
 
     strategy:
       matrix:
-        node-version: [18.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+        node-version: [22.x]
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
+
       - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ matrix.node-version }}
+
+      - name: Cache dependencies
+        uses: actions/cache@v3
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
       - run: npm ci
       - run: npm run docs:build
+
       - name: Compression
         id: brotli
         uses: b11p/compress-action@patch-1
         with:
           target-directory: ".vuepress/dist"
+
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v3
         with:
@@ -47,12 +60,16 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pages: write
+      id-token: write
+
     steps:
       - name: Download artifact from build job
         uses: actions/download-artifact@v3
         with:
           name: vuepress-dist
           path: ./.vuepress/dist
+
       - name: Push to deploy branch
         uses: peaceiris/actions-gh-pages@v3
         with:
