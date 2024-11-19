@@ -3,41 +3,41 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <meta name="generator" content="VuePress 2.0.0-rc.14" />
+    <meta name="generator" content="VuePress 2.0.0-rc.18" />
     <style>
       :root {
-        --c-bg: #fff;
+        --vp-c-bg: #fff;
       }
 
-      html.dark {
-        --c-bg: #22272e;
+      [data-theme='dark'] {
+        --vp-c-bg: #1b1b1f;
       }
 
       html,
       body {
-        background-color: var(--c-bg);
+        background-color: var(--vp-c-bg);
       }
     </style>
     <script>
       const userMode = localStorage.getItem('vuepress-color-scheme')
       const systemDarkMode =
-        window.matchMedia &&
-        window.matchMedia('(prefers-color-scheme: dark)').matches
+        'matchMedia' in window
+          ? window.matchMedia('(prefers-color-scheme: dark)').matches
+          : false
 
       if (userMode === 'light') {
         document.documentElement.dataset.theme = 'light'
       } else if (userMode === 'dark' || systemDarkMode) {
-        document.documentElement.classList.toggle('dark', true)
         document.documentElement.dataset.theme = 'dark'
       }
     </script>
     <script src="/js/image-scale.js"></script><link rel="icon" href="/images/hero.png"><title>osu! 新人群</title><meta name="description" content="一个为新人而生的群聊团体。">
-    <link rel="preload" href="/assets/style-CAqSW2nv.css" as="style"><link rel="stylesheet" href="/assets/style-CAqSW2nv.css">
-    <link rel="modulepreload" href="/assets/app-DGaRgTIq.js"><link rel="modulepreload" href="/assets/404.html-BEruicCc.js">
-    <link rel="prefetch" href="/assets/index.html-BFCr2fG9.js" as="script"><link rel="prefetch" href="/assets/index.html-CBAGrwTk.js" as="script"><link rel="prefetch" href="/assets/index.html-D9n8cSm9.js" as="script"><link rel="prefetch" href="/assets/history.html-BuhO3gOz.js" as="script"><link rel="prefetch" href="/assets/how-to-join.html-BsSC3mHZ.js" as="script"><link rel="prefetch" href="/assets/series.html-BSX7hcSa.js" as="script"><link rel="prefetch" href="/assets/contribution-guide.html-DCOCHh_e.js" as="script"><link rel="prefetch" href="/assets/contributors.html-CSfce1Ns.js" as="script"><link rel="prefetch" href="/assets/events.html-o9uwPR7Z.js" as="script"><link rel="prefetch" href="/assets/index.html-DHPPw-bj.js" as="script"><link rel="prefetch" href="/assets/administrators.html-YvfQqlFx.js" as="script"><link rel="prefetch" href="/assets/alumni.html-D1pk6iXT.js" as="script"><link rel="prefetch" href="/assets/owner.html-4mNdXniB.js" as="script"><link rel="prefetch" href="/assets/index.html-CPJ2m1Ho.js" as="script"><link rel="prefetch" href="/assets/h2303.html-Cl9OhSYE.js" as="script"><link rel="prefetch" href="/assets/h2304.html-0gT0COZz.js" as="script"><link rel="prefetch" href="/assets/h2305.html-COxJi47A.js" as="script"><link rel="prefetch" href="/assets/index.html-RBcjmEFc.js" as="script"><link rel="prefetch" href="/assets/2.html-Bl5PQJVb.js" as="script"><link rel="prefetch" href="/assets/20.html-E_3EcmMx.js" as="script"><link rel="prefetch" href="/assets/21.html-BMGU7Ur4.js" as="script"><link rel="prefetch" href="/assets/22.html-Cl6FYHyT.js" as="script"><link rel="prefetch" href="/assets/23.html-D6YByCOS.js" as="script"><link rel="prefetch" href="/assets/24.html-RisIAslP.js" as="script"><link rel="prefetch" href="/assets/25.html-CZybPMYQ.js" as="script"><link rel="prefetch" href="/assets/26.html-T91f_wR3.js" as="script"><link rel="prefetch" href="/assets/27.html-C_YUmoe1.js" as="script"><link rel="prefetch" href="/assets/28.html-0n8SLf58.js" as="script"><link rel="prefetch" href="/assets/29.html-CVcHO6XV.js" as="script"><link rel="prefetch" href="/assets/30.html-DS_APMbJ.js" as="script"><link rel="prefetch" href="/assets/31.html-D6GjNvNA.js" as="script"><link rel="prefetch" href="/assets/index.html-D7aFh9yv.js" as="script"><link rel="prefetch" href="/assets/a1.html-CtL48HkP.js" as="script"><link rel="prefetch" href="/assets/a2.html-EVPgaQER.js" as="script"><link rel="prefetch" href="/assets/y1.html-Ck8xOlXw.js" as="script"><link rel="prefetch" href="/assets/y2.html-BlczLKNN.js" as="script"><link rel="prefetch" href="/assets/y3.html-HBHH8moF.js" as="script"><link rel="prefetch" href="/assets/y4.html-C63Q1xl6.js" as="script"><link rel="prefetch" href="/assets/index.html-BwMJBAcV.js" as="script"><link rel="prefetch" href="/assets/index.html-8ZxRKI9K.js" as="script"><link rel="prefetch" href="/assets/index.html-BrSzKoH8.js" as="script">
+    <link rel="preload" href="/assets/style-B3MafiB_.css" as="style"><link rel="stylesheet" href="/assets/style-B3MafiB_.css">
+    <link rel="modulepreload" href="/assets/app-_JOO_uMJ.js"><link rel="modulepreload" href="/assets/404.html-Cg848kX6.js">
+    <link rel="prefetch" href="/assets/index.html-CdQ7ygJb.js" as="script"><link rel="prefetch" href="/assets/index.html-BVWp_KNP.js" as="script"><link rel="prefetch" href="/assets/index.html-C4okXd-L.js" as="script"><link rel="prefetch" href="/assets/history.html-B1IN0Zl1.js" as="script"><link rel="prefetch" href="/assets/how-to-join.html-BShB3jd-.js" as="script"><link rel="prefetch" href="/assets/series.html-v5ooXwci.js" as="script"><link rel="prefetch" href="/assets/contribution-guide.html-De-osgNM.js" as="script"><link rel="prefetch" href="/assets/contributors.html-BppaxOo2.js" as="script"><link rel="prefetch" href="/assets/events.html-DCo03Nse.js" as="script"><link rel="prefetch" href="/assets/index.html-CLMCqbcg.js" as="script"><link rel="prefetch" href="/assets/administrators.html-BHNk2Vwf.js" as="script"><link rel="prefetch" href="/assets/alumni.html-5WOhv0dk.js" as="script"><link rel="prefetch" href="/assets/owner.html-ud55yVzy.js" as="script"><link rel="prefetch" href="/assets/index.html-qgmRrRxZ.js" as="script"><link rel="prefetch" href="/assets/h2303.html-DylJvG6k.js" as="script"><link rel="prefetch" href="/assets/h2304.html-D9jz7ocB.js" as="script"><link rel="prefetch" href="/assets/h2305.html-B5KXUrBw.js" as="script"><link rel="prefetch" href="/assets/index.html-CSea2h1F.js" as="script"><link rel="prefetch" href="/assets/2.html-BWYNh6Gs.js" as="script"><link rel="prefetch" href="/assets/20.html-PFhQ-in3.js" as="script"><link rel="prefetch" href="/assets/21.html-DpTfQAtX.js" as="script"><link rel="prefetch" href="/assets/22.html-DgUzKVGe.js" as="script"><link rel="prefetch" href="/assets/23.html-DvvGeJ3H.js" as="script"><link rel="prefetch" href="/assets/24.html-YpSFz4O1.js" as="script"><link rel="prefetch" href="/assets/25.html-DNkFCKW3.js" as="script"><link rel="prefetch" href="/assets/26.html-C7S5YnFF.js" as="script"><link rel="prefetch" href="/assets/27.html-DzSUa5_P.js" as="script"><link rel="prefetch" href="/assets/28.html-D6X0K3TH.js" as="script"><link rel="prefetch" href="/assets/29.html-jfiIRrT8.js" as="script"><link rel="prefetch" href="/assets/30.html-BnqKIg_u.js" as="script"><link rel="prefetch" href="/assets/31.html-D1zt5TTD.js" as="script"><link rel="prefetch" href="/assets/index.html-C3qEMa9B.js" as="script"><link rel="prefetch" href="/assets/a1.html-BxOqjRXh.js" as="script"><link rel="prefetch" href="/assets/a2.html-D94tQxb3.js" as="script"><link rel="prefetch" href="/assets/y1.html-Gu1hrn6l.js" as="script"><link rel="prefetch" href="/assets/y2.html-DKG1i9Du.js" as="script"><link rel="prefetch" href="/assets/y3.html-C_tqBDYU.js" as="script"><link rel="prefetch" href="/assets/y4.html-AnAEFM8K.js" as="script"><link rel="prefetch" href="/assets/index.html-l5gp95L6.js" as="script"><link rel="prefetch" href="/assets/index.html-CVNNAKij.js" as="script"><link rel="prefetch" href="/assets/index.html-DrC7r2EI.js" as="script"><link rel="prefetch" href="/assets/setupDevtools-7MC2TMWH-D07gA9J5.js" as="script">
   </head>
   <body>
-    <div id="app"><!--[--><div class="vp-theme-container" data-v-ddd4bc68><main class="page" data-v-ddd4bc68><div class="theme-default-content" data-v-ddd4bc68><h1 data-v-ddd4bc68>404</h1><blockquote data-v-ddd4bc68>这里什么都没有。</blockquote><a class="route-link" href="/" data-v-ddd4bc68>返回首页</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
-    <script type="module" src="/assets/app-DGaRgTIq.js" defer></script>
+    <div id="app"><!--[--><div class="vp-theme-container" vp-container data-v-03d0ea91><main class="page" data-v-03d0ea91><div class="theme-default-content" vp-content data-v-03d0ea91><h1 data-v-03d0ea91>404</h1><blockquote data-v-03d0ea91>我们好像进入了错误的链接。</blockquote><a class="route-link" href="/" data-v-03d0ea91>返回首页</a></div></main></div><!--[--><!----><!--]--><!--]--></div>
+    <script type="module" src="/assets/app-_JOO_uMJ.js" defer></script>
   </body>
 </html>
