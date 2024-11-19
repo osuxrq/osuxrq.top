@@ -30,22 +30,32 @@ import Card from '@/Card.vue'
 
 const contributors = [
   {
+    stuff: true,
+    uid: "35628968",
+    name: "SisypheOvO",
+    url: "https://osu.ppy.sh/users/35628968",
+    contribution: "调整网站样式"
+  },
+  {
+    stuff: true,
     uid: "13552636",
     name: "- E C -",
     url: "https://osu.ppy.sh/users/13552636",
     contribution: "制作集锦"
   },
   {
+    stuff: true,
     uid: "17268434",
     name: "PercyDan",
     url: "https://osu.ppy.sh/users/17268434",
     contribution: "制作集锦"
   },
   {
+    disable: true,
     uid: "19755783",
     name: "Vup",
     url: "https://osu.ppy.sh/users/19755783",
-    contribution: "作为猫猫机器人的代行账号"
+    contribution: "曾作为qq bot\n现在账号已封禁"
   }
 ];
 </script>
