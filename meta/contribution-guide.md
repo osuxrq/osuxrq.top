@@ -2,55 +2,62 @@
 title: 贡献指南
 lang: zh-CN
 ---
+
 # 贡献指南
-若您发现本站内容有任何错误或遗漏，欢迎通过以下方式贡献。
+
+欢迎为本站提交内容修改或补充。
+本站使用 [VuePress](https://v2.vuepress.vuejs.org/zh/) 构建，内容使用 Markdown 编写。
 
 ## 基本步骤
+
 若要贡献，请遵循下列步骤。
 
-1. 点右上角 GitHub，fork 仓库，然后 `git clone` 到本地。
-2. 下载安装 [Node.js](https://nodejs.org/zh-cn)。
-3. 在克隆的文件夹运行 `npm install`。
-4. 添加或修改页面。
-5. 预览修改验证效果。
-6. 运行 `git add <修改的页面>`，然后再运行 `git push`。
-7. 创建 Pull Request，以把修改合并回原仓库。
+1. 在网站中点击右上角 GitHub 跳转至仓库
+2. Fork 仓库并克隆`git clone`到本地
+3. 下载安装 [Node.js](https://nodejs.org/zh-cn)。
+4. 运行 `npm install` 安装依赖
+5. 修改或新增页面
+6. 本地预览、验证您的修改或新增效果
+7. 提交更改并发起 Pull Request
 
-::: warning 请管理组注意
-虽然管理组有直接修改的权限，但为了避免冲突，最好不要直接修改仓库，请发送 Pull Request。
+::: warning 管理组须知
+虽然管理组有直接修改的权限，但为避免冲突，请通过 Pull Request 提交更改，避免直接修改仓库。
 :::
 
 ## 如何创建页面
-### 创建 .md 文件
-在合适的文件夹创建合适的文件，后缀为 `.md`。文件夹路径和文件名会影响网页的路径。文件名为“README.md”则为该目录。
 
-例如，“/huodong/qunsai/README.md”的 URL 是“/huodong/qunsai/”，“/huodong/qunsai/1.md”的 URL 是“/huodong/qunsai/1”。
+### 新建 Markdown 文件
 
-然后创建页面标题：
+在合适的文件夹创建合适的`.md`文件。文件路径将直接决定页面URL。文件名为“README.md”则为该目录。
+
+- `/folder/README.md` → `/folder/`
+- `/folder/page.md` → `/folder/page`
+
+页面结构：
 
 ```md
-# 标题
-内容
+# 页面标题
+正文内容
 ```
 
 ::: details 过时的信息
 
-~~然后在文件中添加 Header：~~
+~~然后在文件中添加 frontmatter：~~
 
-```
+```plaintext
 ---
 title: 群赛
 lang: zh-CN
 ---
 ```
 
-无需添加 Header，但是添加也没有坏处。
-
+:::tip
+无需添加 frontmatter，但添加也无妨。
 :::
 
-后面写正文，使用 Markdown 语法，不要再使用一级标题。
+正文使用 Markdown 语法，不再使用一级标题。
 
-如果不会 Markdown，自行搜索 Markdown 语法，非常好学。最基础的就是起新段落要换两行。
+如果不会 Markdown，请自行搜索 Markdown 语法.
 
 参考资料：
 
@@ -58,18 +65,34 @@ lang: zh-CN
 - [VuePress 默认主题的 Markdown 容器](https://v2.vuepress.vuejs.org/zh/reference/default-theme/markdown.html)
 - [VuePress Markdown](https://v2.vuepress.vuejs.org/zh/guide/markdown.html)
 
-### 修改导航栏和边栏（如果需要）
-如果增加、删除或重命名了文件，可能需要在 .vuepress/config.ts 中修改导航栏和边栏以便在其中增加页面。
+### 更新导航（可选）
 
-关于导航栏和边栏的使用可以参考 [VuePress 官方文档](https://v2.vuepress.vuejs.org/zh/)。也可以查看他们的[导航栏配置](https://github.com/vuepress/vuepress-next/blob/main/docs/.vuepress/configs/navbar/zh.ts)，[边栏配置](https://github.com/vuepress/vuepress-next/blob/main/docs/.vuepress/configs/sidebar/zh.ts)，[主配置](https://github.com/vuepress/vuepress-next/blob/main/docs/.vuepress/config.ts)。
+如果增加、删除或重命名了文件，并且有必要添加到导航栏或边栏中，
+在 .vuepress/config.ts 中更新导航栏和侧边栏配置。
 
-## 实时查看效果
+参考文档：
+
+[VuePress 官方文档](https://v2.vuepress.vuejs.org/zh/)
+
+[导航栏配置](https://github.com/vuepress/vuepress-next/blob/main/docs/.vuepress/configs/navbar/zh.ts)
+[侧边栏配置](https://github.com/vuepress/vuepress-next/blob/main/docs/.vuepress/configs/sidebar/zh.ts)
+[主配置](https://github.com/vuepress/vuepress-next/blob/main/docs/.vuepress/config.ts)
+
+## 本地实时查看效果
 
 ::: tip
-推荐使用 [Visual Studio Code](https://code.visualstudio.com/) 打开克隆下来的文件夹。
+推荐使用 VS Code 进行开发。
 :::
+启动开发服务器：
 
-在文件夹内首先运行 `npm install`，再运行 `npm run docs:dev`，然后点击显示的链接即可查看效果。如果不熟悉 VuePress，请务必在提交 Pull Request 前检查。
+```bash
+npm install    # 安装依赖
+npm run docs:dev  # 启动预览
+```
 
-## 著作权
-除非另有声明，本站内容采用 CC BY-NC-SA 4.0 授权。当你贡献时，视为你将你贡献的内容同样使用 CC BY-NC-SA 4.0 进行授权。
+点击显示的本地链接即可查看效果。如不熟悉 VuePress，请务必在提交 Pull Request 前检查。
+
+## 许可声明
+
+除非另有说明，本站内容采用 CC BY-NC-SA 4.0 协议授权。
+提交贡献即表示您同意将内容置于相同协议之下。

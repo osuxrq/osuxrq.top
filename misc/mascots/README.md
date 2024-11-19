@@ -1,8 +1,9 @@
 # 新人群的吉祥物
 
-![](./gugu.jpg)
+![Gugu Mascot](/images/gugu/gugu.jpg)
 
-**咕咕 (gugu)**，是新人群系列的吉祥物，于 2024 年 8 月 10 日，由 [Miyabi](https://osu.ppy.sh/users/10638413) 完成设计。
+**咕咕 (gugu)**，是新人群系列的吉祥物，于 2024 年 8 月 10 日由
+[Miyabi](https://osu.ppy.sh/users/10638413) 完成设计。
 
 ## 基本资料
 
@@ -50,6 +51,6 @@
 
 ## 画廊
 
-![](./gugu2.jpg)
+![Gugu Mascot](/images/gugu/gugu2.jpg)
 
-![](./gugu-manga.jpg)
+![Gugu Mascot Manga](/images/gugu/gugu-manga.jpg)

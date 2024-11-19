@@ -2,7 +2,6 @@
 title: 名人堂
 lang: zh-CN
 ---
-<!-- markdownlint-disable MD033 MD025 -->
 
 # 名人堂
 
@@ -16,7 +15,8 @@ lang: zh-CN
 
 <Card :users="contributors">
     <template #extra="{ user }">
-      <span class="contribution">{{ user.contribution }}</span>
+      <span class="contribution"
+            style="white-space: pre-line">{{ user.contribution }}</span>
     </template>
 </Card>
 
@@ -55,7 +55,7 @@ const contributors = [
     uid: "19755783",
     name: "Vup",
     url: "https://osu.ppy.sh/users/19755783",
-    contribution: "曾作为qq bot\n现在账号已封禁"
+    contribution: "曾作为qq bot\n现账号已封禁"
   }
 ];
 </script>

@@ -164,6 +164,9 @@ export default defineUserConfig({
                         "/people/administrators.md",
                         "/people/alumni.md",
                     ],
+                    "/misc/bots/": false,
+                    "/misc/mascots/": false,
+                    "/misc/meme/": false
                 },
                 logo: "/images/hero.png",
                 editLink: true,

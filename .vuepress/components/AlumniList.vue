@@ -1,32 +1,25 @@
 <template>
   <div class="alumni-list">
-    <div>
-      <div v-for="(list, year) in userList" :key="year" class="panel">
-        <div v-if="errorText" class="single-year-panel">
-          <button @click="loadYear" class="panel-header">
-            {{ year }} 年
-            <span v-if="errorText">{{ errorText }}</span>
-          </button>
-        </div>
+    <div v-for="(list, year) in userList" :key="year" class="panel">
+      <div class="single-year-panel">
+        <button @click="errorText ? loadYear : togglePanel(year)" class="panel-header">
+          {{ year }} 年
+          <span v-if="errorText">{{ errorText }}</span>
+        </button>
 
-        <div v-if="!errorText" class="single-year-panel">
-          <button @click="togglePanel(year)" class="panel-header">
-            {{ year }} 年
-          </button>
-
-          <transition name="slide-fade">
-            <div
-              class="panel-content"
-              :style="{ maxHeight: getMaxHeight(year) }"
-            >
-              <Card :users="list">
-                <template #extra="{ user }">
-                  <span class="user-date">{{ getTime(user) }}</span>
-                </template>
-              </Card>
-            </div>
-          </transition>
-        </div>
+        <transition name="slide-fade">
+          <div
+            v-if="!errorText"
+            class="panel-content"
+            :style="{ maxHeight: getMaxHeight(year) }"
+          >
+            <Card :users="list">
+              <template #extra="{ user }">
+                <span class="user-date">{{ getTime(user) }}</span>
+              </template>
+            </Card>
+          </div>
+        </transition>
       </div>
     </div>
   </div>

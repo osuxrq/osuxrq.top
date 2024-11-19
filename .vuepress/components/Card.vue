@@ -32,7 +32,7 @@ defineProps<{
 
 const handleImageError = (e: Event) => {
   const img = e.target as HTMLImageElement;
-  img.src = "/placeholder-avatar.png";
+  img.src = "../public/images/defaultAvatar.png";
 };
 
 const getCardClass = (user) => {
