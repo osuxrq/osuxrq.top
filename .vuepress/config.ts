@@ -20,7 +20,7 @@ export default defineUserConfig({
     },
     port:5173,
     alias: {
-        "@": path.resolve(__dirname, "./components/"),
+        "@": path.resolve(__dirname, "components"),
     },
     theme: defaultTheme({
         locales: {
@@ -164,9 +164,7 @@ export default defineUserConfig({
                         "/people/administrators.md",
                         "/people/alumni.md",
                     ],
-                    "/misc/bots/": false,
-                    "/misc/mascots/": false,
-                    "/misc/meme/": false
+                    "/misc/": false
                 },
                 logo: "/images/hero.png",
                 editLink: true,

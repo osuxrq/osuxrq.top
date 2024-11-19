@@ -109,7 +109,27 @@ onMounted(() => {
 });
 </script>
 
-<style scoped>
+<style>
+:root {
+  --custom-tip-bg: #f9f9f9;
+  --custom-bg: #ededed;
+  --custom-bg-lighter: #fcfcfc;
+  --custom-text: #666666;
+  --custom-primary-color: #4ecdc4;
+  --custom-secondary-color: #ff6b6b;
+  --custom-hover-bg: rgba(255, 255, 255, 0.472);
+}
+
+html[data-theme="dark"] {
+  --custom-tip-bg: #2b313a;
+  --custom-bg: #22272e;
+  --custom-bg-lighter: #262c34;
+  --custom-text: #d1d1d1;
+  --custom-primary-color: #6ee7e7;
+  --custom-secondary-color: #ff8f8f;
+  --custom-hover-bg: rgba(255, 255, 255, 0.05);
+}
+
 .panel {
   margin: 1rem;
 }
@@ -125,10 +145,10 @@ onMounted(() => {
   font-size: 1.2rem;
   padding-block: 0.5rem;
   padding-inline: 1rem;
-  background-color: var(--c-tip-bg);
+  background-color: var(--custom-tip-bg);
   border: none;
   border-radius: 0.3rem;
-  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
   text-align: left;
   width: 100%;
   z-index: 1;
@@ -138,7 +158,7 @@ onMounted(() => {
   width: 93%;
   overflow: hidden;
   scrollbar-width: none;
-  background-color: var(--c-bg-lighter);
+  background-color: var(--custom-bg);
   padding: 1rem;
   padding-top: 0.5rem;
   margin-top: -0.6rem;
@@ -149,7 +169,7 @@ onMounted(() => {
 
 .user-date {
   font-size: 0.8rem;
-  color: var(--c-text-lighter);
+  color: var(--custom-text);
 }
 
 /* 过渡效果 */

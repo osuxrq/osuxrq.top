@@ -43,7 +43,7 @@ const getCardClass = (user) => {
   } else {
     return "user-card";
   }
-}
+};
 </script>
 
 <style scoped lang="scss">
@@ -59,7 +59,7 @@ const getCardClass = (user) => {
   align-items: center;
   padding: 0.5rem;
   border-radius: 0.5rem;
-  background: var(--c-bg);
+  background: var(--custom-bg-lighter);
   transition: transform 0.2s;
 }
 
@@ -76,7 +76,7 @@ const getCardClass = (user) => {
     height: 100%;
     z-index: 1;
     pointer-events: all;
-    border-radius: 1rem;
+    border-radius: 0.5rem;
     background-color: rgba(0, 0, 0, 0.3);
     cursor: not-allowed;
   }
@@ -86,6 +86,20 @@ const getCardClass = (user) => {
 
 .stuff {
   position: relative;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+
+  .user-name {
+    background: linear-gradient(
+      45deg,
+      var(--custom-primary-color, #4ecdc4),
+      var(--custom-secondary-color, #ff6b6b)
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 1.1em;
+  }
+
   &::after {
     content: "";
     position: absolute;
@@ -96,9 +110,10 @@ const getCardClass = (user) => {
     z-index: -1;
     border-radius: 0.5rem;
     opacity: 0;
-    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
-    transition: opacity 0.2s;
+    background: var(--custom-hover-bg, rgba(255, 255, 255, 0.1));
+    transition: opacity 0.3s ease;
   }
+
   &:hover::after {
     opacity: 1;
   }
@@ -112,7 +127,7 @@ const getCardClass = (user) => {
   display: flex;
   align-items: center;
   text-decoration: none;
-  color: inherit;
+  color: var(--custom-text);
   width: 100%;
 }
 
