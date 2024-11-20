@@ -110,7 +110,10 @@ const getCardClass = (user) => {
     z-index: -1;
     border-radius: 0.5rem;
     opacity: 0;
-    background: var(--custom-hover-bg, rgba(255, 255, 255, 0.1));
+    background: radial-gradient(#c42d01 0%, #c42d01 10%, #fcf26e 40%, #00e754 60%, #00eef4 70%, #0070f3 100%);
+    background-size: 300% 300%;
+    filter: blur(20px);
+    animation: streamer 8s infinite;
     transition: opacity 0.3s ease;
   }
 
@@ -147,5 +150,10 @@ const getCardClass = (user) => {
 .user-name {
   font-weight: bold;
   margin-bottom: 0.25rem;
+}
+@keyframes streamer{
+  100% {
+    background-position: -300% -200%;
+  }
 }
 </style>

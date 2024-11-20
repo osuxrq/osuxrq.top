@@ -46,7 +46,7 @@ const activeYear = ref(null);
 const loadYear = async () => {
   try {
     const response = await fetch(url);
-    const data = await response.json();
+    const data:number[] = await response.json();
 
     const years = {};
     data.forEach((year) => (years[year] = [])); // 初始化年份数据结构
@@ -68,8 +68,7 @@ const loadList = async (year) => {
   loadingList.value.push(year);
   try {
     const response = await fetch(`${url}?year=${year}`);
-    const data = await response.json();
-    userList.value[year] = data; // 填充数据
+    userList.value[year] = await response.json(); // 填充数据
   } catch (error) {
     console.error(error);
     errorText.value = "加载失败，请检查浏览器或网络";
@@ -159,8 +158,7 @@ html[data-theme="dark"] {
   overflow: hidden;
   scrollbar-width: none;
   background-color: var(--custom-bg);
-  padding: 1rem;
-  padding-top: 0.5rem;
+  padding: 0.5rem 1rem 1rem;
   margin-top: -0.6rem;
   border-radius: 0.3rem;
   z-index: 0;
