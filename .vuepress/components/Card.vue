@@ -1,19 +1,30 @@
 <template>
   <div class="user-grid">
-    <div v-for="user in users" :key="user.uid" :class="getCardClass(user)">
-      <a :href="user.url" target="_blank" rel="noopener noreferrer">
-        <img
-          :src="`https://a.ppy.sh/${user.uid}`"
-          :alt="user.name"
-          class="user-avatar"
-          @error="handleImageError"
-        />
-        <div class="user-info">
-          <span class="user-name">{{ user.name }}</span>
-          <slot name="extra" :user="user"></slot>
+    <template v-if="!users || users.length === 0">
+      <div v-for="i in 4" :key="i" class="skeleton-card">
+        <div class="skeleton-avatar"></div>
+        <div class="skeleton-info">
+          <div class="skeleton-name"></div>
+          <div class="skeleton-date"></div>
         </div>
-      </a>
-    </div>
+      </div>
+    </template>
+    <template v-else>
+      <div v-for="user in users" :key="user.uid" :class="getCardClass(user)">
+        <a :href="user.url" target="_blank" rel="noopener noreferrer">
+          <img
+            :src="`https://a.ppy.sh/${user.uid}`"
+            :alt="user.name"
+            class="user-avatar"
+            @error="handleImageError"
+          />
+          <div class="user-info">
+            <span class="user-name">{{ user.name }}</span>
+            <slot name="extra" :user="user"></slot>
+          </div>
+        </a>
+      </div>
+    </template>
   </div>
 </template>
 
@@ -52,6 +63,8 @@ const getCardClass = (user) => {
   grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   gap: 1rem;
   padding: 1rem;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .user-card {
@@ -61,6 +74,14 @@ const getCardClass = (user) => {
   border-radius: 0.5rem;
   background: var(--custom-bg-lighter);
   transition: transform 0.2s;
+
+  a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--custom-text);
+    width: 100%;
+  }
 }
 
 .disable {
@@ -133,14 +154,6 @@ const getCardClass = (user) => {
   transform: translateY(-2px) scale(1.02);
 }
 
-.user-card a {
-  display: flex;
-  align-items: center;
-  text-decoration: none;
-  color: var(--custom-text);
-  width: 100%;
-}
-
 .user-avatar {
   width: 50px;
   height: 50px;
@@ -159,9 +172,59 @@ const getCardClass = (user) => {
   margin-bottom: 0.25rem;
 }
 
+/* 骨架屏样式 */
+.skeleton-card {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+  background: var(--custom-bg-lighter);
+  border-radius: 0.5rem;
+  height: 60px;
+}
+
+.skeleton-avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--custom-tip-bg);
+  margin-right: 1rem;
+  flex-shrink: 0;
+}
+
+.skeleton-info {
+  flex: 1;
+}
+
+.skeleton-name {
+  height: 1rem;
+  background: var(--custom-tip-bg);
+  border-radius: 0.25rem;
+  margin-bottom: 0.5rem;
+  width: 70%;
+}
+
+.skeleton-date {
+  height: 0.8rem;
+  background: var(--custom-tip-bg);
+  border-radius: 0.25rem;
+  width: 40%;
+}
+
+@keyframes pulse {
+  0% { opacity: 1; }
+  50% { opacity: 0.5; }
+  100% { opacity: 1; }
+}
+
 @keyframes streamer {
   100% {
     background-position: -300% -200%;
   }
+}
+
+.skeleton-card .skeleton-avatar,
+.skeleton-card .skeleton-name,
+.skeleton-card .skeleton-date {
+  animation: pulse 1.5s ease-in-out infinite;
 }
 </style>

@@ -2,20 +2,12 @@
   <div class="alumni-list">
     <div v-for="(list, year) in userList" :key="year" class="panel">
       <div class="single-year-panel">
-        <button
-          @click="errorText ? loadYear : togglePanel(year)"
-          class="panel-header"
-        >
+        <button @click="togglePanel(year)" class="panel-header">
           {{ year }} 年
-          <span v-if="errorText">{{ errorText }}</span>
         </button>
 
         <transition name="slide-fade">
-          <div
-            v-if="!errorText"
-            class="panel-content"
-            :style="{ maxHeight: getMaxHeight(year) }"
-          >
+          <div class="panel-content" :style="{ maxHeight: getMaxHeight(year) }">
             <Card :users="list">
               <template #extra="{ user }">
                 <span class="user-date">{{ getTime(user) }}</span>
@@ -29,7 +21,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, nextTick } from "vue";
+import { ref, onMounted } from "vue";
 import Card from "./Card.vue";
 
 interface User {
@@ -40,53 +32,40 @@ interface User {
 }
 
 const url = "https://xrq.365246692.xyz:40002/bot/alumni";
-const errorText = ref("loading...");
-const userList = ref<{ [key: string]: User[] }>({});
-const loadingList = ref<number[]>([]);
+const userList = ref<{ [key: string]: User[] }>({
+  "2023": [],
+  "2024": [],
+});
 const activeYear = ref(null);
-const currentColumns = ref(1);
 
 // 加载所有年份数据
 const loadYear = async () => {
   try {
     const response = await fetch(url);
-    const data: number[] = await response.json();
+    const years = await response.json();
 
-    const years = {};
-    data.forEach((year) => (years[year] = [])); // 初始化年份数据结构
-    userList.value = years;
+    // 用实际年份更新 userList
+    const newUserList = {};
+    years.forEach((year) => {
+      newUserList[year] = userList.value[year] || [];
+    });
+    userList.value = newUserList;
 
-    await loadAllLists(); // 预加载所有年份的用户数据
-
-    errorText.value = "";
+    // 加载每个年份的数据
+    await Promise.all(Object.keys(newUserList).map(loadYearData));
   } catch (error) {
     console.error(error);
-    errorText.value = "加载失败，请检查浏览器或网络";
   }
 };
 
 // 加载特定年份的用户数据
-const loadList = async (year) => {
-  if (userList.value[year].length > 0) return;
-
-  loadingList.value.push(year);
+const loadYearData = async (year) => {
   try {
+    // await new Promise(resolve => setTimeout(resolve, 1000)); // 模拟加载延迟,可用于测试Card组件的骨架屏
     const response = await fetch(`${url}?year=${year}`);
     userList.value[year] = await response.json(); // 填充数据
   } catch (error) {
     console.error(error);
-    errorText.value = "加载失败，请检查浏览器或网络";
-  } finally {
-    loadingList.value = loadingList.value.filter((item) => item !== year);
-  }
-};
-
-// 预加载所有年份的用户数据
-const loadAllLists = async () => {
-  for (const year in userList.value) {
-    if (userList.value[year].length === 0) {
-      await loadList(year);
-    }
   }
 };
 
@@ -95,29 +74,16 @@ const togglePanel = (year) => {
   activeYear.value = activeYear.value === year ? null : year;
 };
 
-// 计算当前有几列
-const getColumnsCount = () => {
-  const container = document.querySelector(".panel-content");
-  if (!container) return;
-
-  const containerWidth = container.clientWidth;
-  // 200px 最小宽度 + 1rem(16px) gap
-  currentColumns.value = Math.floor((containerWidth - 32) / (200 + 16)) || 1;
-};
-
 const getMaxHeight = (year) => {
   if (activeYear.value !== year) return "0px";
 
-  const itemCount = userList.value[year]?.length || 0;
+  const container = document.querySelector(".panel-content");
+  if (!container) return "0px";
 
-  if (currentColumns.value === 1) {
-    const cardHeight = 70;
-    const rows = Math.ceil(itemCount / currentColumns.value);
-    const totalHeight = 32 + rows * cardHeight + (rows - 1) * 16;
-    return `${totalHeight}px`;
-  } else {
-    return `${itemCount * 50 + 20}px`;
-  }
+  const itemCount = userList.value[year]?.length || 4;
+  const cardHeight = 70;
+  const totalHeight = 32 + itemCount * cardHeight + (itemCount - 1) * 16;
+  return `${totalHeight}px`;
 };
 
 // 时间格式化
@@ -128,18 +94,6 @@ const getTime = (user) => {
 // 初始化数据加载
 onMounted(() => {
   loadYear();
-  window.addEventListener("resize", () => {
-    if (activeYear.value) {
-      // 强制重新计算当前打开面板的高度
-      nextTick(() => {
-        const style = (document.querySelector(".panel-content") as HTMLElement)
-          ?.style;
-        if (style) {
-          style.maxHeight = getMaxHeight(activeYear.value);
-        }
-      });
-    }
-  });
 });
 </script>
 
