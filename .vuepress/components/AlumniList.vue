@@ -2,7 +2,10 @@
   <div class="alumni-list">
     <div v-for="(list, year) in userList" :key="year" class="panel">
       <div class="single-year-panel">
-        <button @click="errorText ? loadYear : togglePanel(year)" class="panel-header">
+        <button
+          @click="errorText ? loadYear : togglePanel(year)"
+          class="panel-header"
+        >
           {{ year }} 年
           <span v-if="errorText">{{ errorText }}</span>
         </button>
@@ -26,7 +29,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
+import { ref, onMounted, nextTick } from "vue";
 import Card from "./Card.vue";
 
 interface User {
@@ -41,12 +44,13 @@ const errorText = ref("loading...");
 const userList = ref<{ [key: string]: User[] }>({});
 const loadingList = ref<number[]>([]);
 const activeYear = ref(null);
+const currentColumns = ref(1);
 
 // 加载所有年份数据
 const loadYear = async () => {
   try {
     const response = await fetch(url);
-    const data:number[] = await response.json();
+    const data: number[] = await response.json();
 
     const years = {};
     data.forEach((year) => (years[year] = [])); // 初始化年份数据结构
@@ -91,10 +95,29 @@ const togglePanel = (year) => {
   activeYear.value = activeYear.value === year ? null : year;
 };
 
-// 获取展开面板的最大高度
+// 计算当前有几列
+const getColumnsCount = () => {
+  const container = document.querySelector(".panel-content");
+  if (!container) return;
+
+  const containerWidth = container.clientWidth;
+  // 200px 最小宽度 + 1rem(16px) gap
+  currentColumns.value = Math.floor((containerWidth - 32) / (200 + 16)) || 1;
+};
+
 const getMaxHeight = (year) => {
+  if (activeYear.value !== year) return "0px";
+
   const itemCount = userList.value[year]?.length || 0;
-  return activeYear.value === year ? `${itemCount * 50 + 20}px` : "0px"; // 根据条目数量计算高度
+
+  if (currentColumns.value === 1) {
+    const cardHeight = 70;
+    const rows = Math.ceil(itemCount / currentColumns.value);
+    const totalHeight = 32 + rows * cardHeight + (rows - 1) * 16;
+    return `${totalHeight}px`;
+  } else {
+    return `${itemCount * 50 + 20}px`;
+  }
 };
 
 // 时间格式化
@@ -105,6 +128,18 @@ const getTime = (user) => {
 // 初始化数据加载
 onMounted(() => {
   loadYear();
+  window.addEventListener("resize", () => {
+    if (activeYear.value) {
+      // 强制重新计算当前打开面板的高度
+      nextTick(() => {
+        const style = (document.querySelector(".panel-content") as HTMLElement)
+          ?.style;
+        if (style) {
+          style.maxHeight = getMaxHeight(activeYear.value);
+        }
+      });
+    }
+  });
 });
 </script>
 
