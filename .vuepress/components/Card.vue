@@ -110,7 +110,14 @@ const getCardClass = (user) => {
     z-index: -1;
     border-radius: 0.5rem;
     opacity: 0;
-    background: radial-gradient(#c42d01 0%, #c42d01 10%, #fcf26e 40%, #00e754 60%, #00eef4 70%, #0070f3 100%);
+    background: radial-gradient(
+      #c42d01 0%,
+      #c42d01 10%,
+      #fcf26e 40%,
+      #00e754 60%,
+      #00eef4 70%,
+      #0070f3 100%
+    );
     background-size: 300% 300%;
     filter: blur(20px);
     animation: streamer 8s infinite;
@@ -151,7 +158,8 @@ const getCardClass = (user) => {
   font-weight: bold;
   margin-bottom: 0.25rem;
 }
-@keyframes streamer{
+
+@keyframes streamer {
   100% {
     background-position: -300% -200%;
   }
