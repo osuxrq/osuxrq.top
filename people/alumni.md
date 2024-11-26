@@ -7,9 +7,7 @@ lang: zh-CN
 
 ## 🚀 达到高阶群出群条件
 
-<ClientOnly>
-  <AlumniList/>
-</ClientOnly>
+<AlumniList/>
 
 ## ✨ 做出卓越贡献
 
