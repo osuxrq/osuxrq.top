@@ -19,28 +19,49 @@ osu! 新人群系列现有管理 **37** 人，其中活跃 **20** 人，群主 *
 
 管理的联系方式以及历史信息详见：[管理列表](administrators.md)
 
-*备注：加粗表示该管理小组的组长，需要承担**带头作用**（至少要能找到人）。斜体表示最近一次入群或上任的管理。*
+*备注： 职位划分仅作为参考，每个管理都可以胜任其他职位，加粗表示该管理小组的组长，需要承担**带头作用**（至少要能找到人）。斜体表示最近一次入群或上任的管理。*
 
-| 群组和管理小组 | 策划 | 指导 | 审查 | 维护 |
-| :-: | :-: | :-: | :-: | :-: |
-| 新人群 | **Celia-Claire** | **\-Inui Sana\-** | **IronWitness** | **Interesting** |
-|  | huanying | Firika | Mimosa M | bleatingsheep |
-|  | Molli | Hiiragi Kagami | n0000000000o |  |
-|  | Sayori_yui | osu happy | SIyuyuko |  |
-| | *Sakura Luna* | m u s e | *xxbg* | |
-| | *Summ3rR41n* |  | *Dragon-Fox* | |
-| | | | | |
-| 进阶群 | **Senbe1** | **Hiiragi Kagami** | **SIyuyuko** | **bleatingsheep** |
-|  | Molli | Firika | IronWitness | Interesting |
-| | *Sakura Luna* | m u s e | Mimosa M | \-Spring Night\- |
-| | | *YRScarlet* | *xxbg* | |
-| | | | | |
-| 高阶群 | **UselessPlayer** | **Molli** | **Mimosa M** | **\-Spring Night\-** |
-| | VialVistas | Firika | IronWitness | Interesting |
-| |  |  | | bleatingsheep |
-| |  | | | Guozi on Osu |
+> 新人群
+
+|       策划       |        指导         |          审查           |
+|:--------------:|:-----------------:|:---------------------:|
+| **Sayori_yui** | **\-Inui Sana\-** | **IronWitness(第一杀手)** |
+|     Molli      |  Hiiragi Kagami   |       SIyuyuko        |
+|  Sakura Luna   |   UselessPlayer   |       NatsuRin        |
+|  Hiiragi Haru  |     Mimosa M      |        Firika         |
+|   YRScarlet    |      m u s e      |        yuanxy         |
+|  n0000000000o  |      Atahana      |         yuyox         |
+|     Senbe1     |                   |                       |
+
+> 进阶群
+
+|       策划       |         指导         |          审查           |
+|:--------------:|:------------------:|:---------------------:|
+| **Sayori_yui** | **Hiiragi Kagami** | **IronWitness(第一杀手)** |
+|     Senbe1     |   \-Inui Sana\-    |       NatsuRin        |
+|    SIyuyuko    |       Firika       |        m u s e        |
+|  Sakura Luna   |       Molli        |                       |
+| UselessPlayer  |      Mimosa M      |                       |
+
+> 高阶群
+
+|        策划         |      指导       |          审查           |
+|:-----------------:|:-------------:|:---------------------:|
+| **UselessPlayer** |   **Molli**   | **IronWitness(第一杀手)** |
+|     SIyuyuko      | \-Inui Sana\- |       NatsuRin        |
+|    Sayori_yui     |    Firika     |     Guozi on Osu      |
+|    - Rainbow -    |     Molli     |    Hiiragi Kagami     |
+|                   |   Mimosa M    |                       |
 
 ### 特殊职责
+
+#### **bot 维护**
+- yumu 账号, 官方bot: \-Spring Night\-
+- 消防栓的qq账号: 幻影(huanying) \-Spring Night\-
+- 果果猫的qq账号: Guozi on Osu
+- 消防栓bot: bleatingsheep
+- yumu bot: Muziyami, \-Spring Night\-
+- interBot: Interesting ~~牢因你什么时候回来啊😭😭😭~~
 
 #### **新人群**
 
@@ -49,14 +70,13 @@ osu! 新人群系列现有管理 **37** 人，其中活跃 **20** 人，群主 *
 
 #### **进阶群**
 
-- 头衔图制作、分段比赛宣传：VialVistas
+- 分段比赛宣传：-Inui Sana-
 - 同屏活动：SIyuyuko
 
 #### **高阶群**
 
 - 月赛(Chart、HOC)主办：UselessPlayer、\- Rainbow \-
 - 月赛(Chart、HOC)选图：Molli
-- 分段比赛宣传：VialVistas
 
 ## 名人堂
 
