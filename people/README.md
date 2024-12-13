@@ -50,8 +50,7 @@ osu! 新人群系列现有管理 **37** 人，其中活跃 **20** 人，群主 *
 | **UselessPlayer** |   **Molli**   | **IronWitness(第一杀手)** |
 |     SIyuyuko      | \-Inui Sana\- |       NatsuRin        |
 |    Sayori_yui     |    Firika     |     Guozi on Osu      |
-|    - Rainbow -    |     Molli     |    Hiiragi Kagami     |
-|                   |   Mimosa M    |                       |
+|    - Rainbow -    |   Mimosa M    |    Hiiragi Kagami     |
 
 ### 特殊职责
 
