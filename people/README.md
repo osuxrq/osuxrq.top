@@ -28,10 +28,10 @@ osu! 新人群系列现有管理 **37** 人，其中活跃 **20** 人，群主 *
 | **Sayori_yui** | **\-Inui Sana\-** | **IronWitness(第一杀手)** |
 |     Molli      |  Hiiragi Kagami   |       SIyuyuko        |
 |  Sakura Luna   |   UselessPlayer   |       NatsuRin        |
-|  Hiiragi Haru  |     Mimosa M      |        Firika         |
-|   YRScarlet    |      m u s e      |        yuanxy         |
-|  n0000000000o  |      Atahana      |         yuyox         |
-|     Senbe1     |                   |                       |
+|  Hiiragi Haru  |      m u s e      |        Firika         |
+|   YRScarlet    |      Atahana      |        yuanxy         |
+|  n0000000000o  |                   |         yuyox         |
+|     Senbe1     |                   |       Mimosa M        |
 
 > 进阶群
 
@@ -40,8 +40,8 @@ osu! 新人群系列现有管理 **37** 人，其中活跃 **20** 人，群主 *
 | **Sayori_yui** | **Hiiragi Kagami** | **IronWitness(第一杀手)** |
 |     Senbe1     |   \-Inui Sana\-    |       NatsuRin        |
 |    SIyuyuko    |       Firika       |        m u s e        |
-|  Sakura Luna   |       Molli        |                       |
-| UselessPlayer  |      Mimosa M      |                       |
+|  Sakura Luna   |       Molli        |       Mimosa M        |
+| UselessPlayer  |                    |                       |
 
 > 高阶群
 
@@ -50,7 +50,8 @@ osu! 新人群系列现有管理 **37** 人，其中活跃 **20** 人，群主 *
 | **UselessPlayer** |   **Molli**   | **IronWitness(第一杀手)** |
 |     SIyuyuko      | \-Inui Sana\- |       NatsuRin        |
 |    Sayori_yui     |    Firika     |     Guozi on Osu      |
-|    - Rainbow -    |   Mimosa M    |    Hiiragi Kagami     |
+|    - Rainbow -    |               |    Hiiragi Kagami     |
+|                   |               |       Mimosa M        |
 
 ### 特殊职责
 
