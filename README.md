@@ -33,6 +33,8 @@ footer: |
   本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
   <br/>
   Copyright © 2023-present osu! 新人群, All Rights Reserved.
+  <br/>
+  <a href="https://beian.miit.gov.cn/#/Integrated/recordQuery" target="_blank">粤ICP备2024353550号-1</a>
 
 footerHtml: true
 ---
