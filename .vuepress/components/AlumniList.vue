@@ -31,7 +31,7 @@ interface User {
   date: number[];
 }
 
-const url = "/bot/alumni";
+const url = "https://osuxrq.com/api/alumni";
 const userList = ref<{ [key: string]: User[] }>({
   "2023": [],
   "2024": [],
