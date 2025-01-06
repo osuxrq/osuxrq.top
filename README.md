@@ -34,7 +34,7 @@ footer: |
   <br/>
   Copyright © 2023-present osu! 新人群, All Rights Reserved.
   <br/>
-  <a href="https://beian.miit.gov.cn/#/Integrated/recordQuery" target="_blank">粤ICP备2024353550号-1</a>
+  <a href="https://beian.miit.gov.cn/#/Integrated/recordQuery" target="_blank">粤ICP备2024353550号-1</a> | <a href="https://beian.mps.gov.cn/#/query/webSearch" target="_blank">粤公网安备44198202000114号</a>
 
 footerHtml: true
 ---
