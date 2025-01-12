@@ -4,6 +4,9 @@ node_modules/
 .cache/
 .vuepress/dist/
 
+# Lock files
+package-lock.json
+
 # Editor directories and files
 .idea
 .vscode/*
