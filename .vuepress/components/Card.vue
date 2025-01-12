@@ -10,7 +10,7 @@
       </div>
     </template>
     <template v-else>
-      <div v-for="user in users" :key="user.uid" :class="getCardClass(user)">
+      <div v-for="user in users" :key="user.uid" class="user-card" :class="getCardClass(user)">
         <a :href="user.url" target="_blank" rel="noopener noreferrer">
           <img
             :src="`https://a.ppy.sh/${user.uid}`"
@@ -43,16 +43,16 @@ defineProps<{
 
 const handleImageError = (e: Event) => {
   const img = e.target as HTMLImageElement;
-  img.src = "../public/images/defaultAvatar.png";
+  img.src = "/images/defaultAvatar.png";
 };
 
 const getCardClass = (user) => {
   if (user.disable) {
-    return "user-card disable";
+    return "disable";
   } else if (user.stuff) {
-    return "user-card stuff";
+    return "stuff";
   } else {
-    return "user-card";
+    return "";
   }
 };
 </script>
