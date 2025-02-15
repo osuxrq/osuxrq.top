@@ -31,6 +31,7 @@
 <script setup lang="ts">
 interface User {
   disable?: boolean;
+  stuff?: boolean;
   uid: string;
   name: string;
   url: string;
@@ -46,7 +47,7 @@ const handleImageError = (e: Event) => {
   img.src = "/images/defaultAvatar.png";
 };
 
-const getCardClass = (user) => {
+const getCardClass = (user: User) => {
   if (user.disable) {
     return "disable";
   } else if (user.stuff) {
@@ -107,6 +108,7 @@ const getCardClass = (user) => {
 
 .stuff {
   position: relative;
+  overflow: hidden;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 
   .user-name {
@@ -143,6 +145,7 @@ const getCardClass = (user) => {
     filter: blur(20px);
     animation: streamer 8s infinite;
     transition: opacity 0.3s ease;
+    will-change: background-position;
   }
 
   &:hover::after {
@@ -226,5 +229,6 @@ const getCardClass = (user) => {
 .skeleton-card .skeleton-name,
 .skeleton-card .skeleton-date {
   animation: pulse 1.5s ease-in-out infinite;
+  will-change: opacity;
 }
 </style>
