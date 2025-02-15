@@ -1,4 +1,4 @@
-(() => {
+export const scaleImage = () => {
     /**
      * 设置图片宽度
      * @param img - 图片元素
@@ -13,61 +13,48 @@
 
     /**
      * 处理图片缩放
-     * @param retryCount - 剩余重试次数
-     * @param updateCount - 更新次数
      */
-    const handleImageScale = (retryCount: number, updateCount: number): void => {
-        const images = document.querySelectorAll<HTMLImageElement>("main img");
-        let hasNewImages = false;
-
-        images.forEach((img) => {
+    const handleImageScale = (): void => {
+        const images: NodeListOf<HTMLImageElement> = document.querySelectorAll("main img");
+        images.forEach((img: HTMLImageElement) => {
             try {
                 // 解析图片路径
-                const path = decodeURIComponent(new URL(img.src).pathname);
-                const scaleMatch = /-((?=\d|\.\d)\d*\.?\d*)x(?:-[0-9a-f]{7,})?\.[0-9a-z]+$/i.exec(path);
+                const path: string = decodeURIComponent(new URL(img.src).pathname);
+                const scaleMatch: RegExpExecArray | null = /-((?=\d|\.\d)\d*\.?\d*)x(?:-[0-9a-f]{7,})?\.[0-9a-z]+$/i.exec(path);
 
                 // 如果文件名中没有缩放比例信息，跳过
                 if (!scaleMatch) return;
 
-                // 检查是否有新图片
-                if (!img.onload) {
-                    hasNewImages = true;
-                }
-
-                const scale = parseFloat(scaleMatch[1]);
-                setImageWidth(img, scale); // 设置图片宽度
-
-                // 监听图片加载事件
-                img.onload = (): void => {
+                const scale: number = parseFloat(scaleMatch[1]);
+                if (img.complete) {
                     setImageWidth(img, scale);
-                };
+                } else {
+                    // 监听图片加载事件，确保图片加载完成后设置宽度
+                    img.onload = (): void => {
+                        setImageWidth(img, scale);
+                    };
+                }
             } catch (error) {
                 console.error('Image scaling error:', error);
             }
         });
-
-        // 如果有新图片且未达到重试上限，则重试
-        if (hasNewImages && updateCount < 2 && retryCount > 0) {
-            setTimeout(() => handleImageScale(retryCount - 1, updateCount + 1), 100);
-        }
     };
 
     // 初始调用
-    handleImageScale(5, 0);
+    handleImageScale();
 
     // 注册一个 observer , 监听 DOM 变化，重新处理图片
-    const observer = new MutationObserver((mutations) => {
-        mutations.forEach((mutation) => {
+    const observer: MutationObserver = new MutationObserver((mutations: MutationRecord[]) => {
+        mutations.forEach((mutation: MutationRecord) => {
             if (mutation.type === 'childList') {
-                handleImageScale(5, 0);
+                handleImageScale();
             }
         });
     });
 
     // 调用 observer 监听 <main> 元素的变化
-    const mainElement = document.querySelector('main');
-    console.log(mainElement);
+    const mainElement: HTMLElement | null = document.querySelector('main');
     if (mainElement) {
         observer.observe(mainElement, { childList: true, subtree: true });
     }
-})();
+};
