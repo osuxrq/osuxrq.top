@@ -1,4 +1,5 @@
 export const scaleImage = () => {
+    if (typeof document === 'undefined') return;
     /**
      * 设置图片宽度
      * @param img - 图片元素
