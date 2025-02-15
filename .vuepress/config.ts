@@ -5,7 +5,6 @@ import * as path from "node:path";
 
 export default defineUserConfig({
     head: [
-        ["script", { "src": "/js/image-scale.js" }],
         ["link", {
             "rel": "icon",
             "href": "/images/hero.png",
